@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)</title>
-<link rel="stylesheet" href="../assets/built/screen.css%3Fv=f5c29f47ef.css">
-<link rel="icon" href="../content/images/size/w256h256/2023/08/icon.png" type="image/png">
-<link rel="canonical" href="index.html">
-<meta name="referrer" content="no-referrer-when-downgrade">
-<link rel="amphtml" href="amp/index.html">
-<meta property="og:site_name" content="El Claustro">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)">
-<meta property="og:description" content="Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica -teníamos más tiempo libre y estábamos inmersos en el darkeo-.
+
+    <title>Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="../assets/built/screen.css%3Fv=d88866a7db.css">
+    <link rel="preload" as="script" href="../assets/built/source.js%3Fv=d88866a7db">
+
+    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css%3Fv=d88866a7db.css">
+
+    <style>
+        :root {
+            --background-color: #000000
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="icon" href="../content/images/size/w256h256/2023/08/icon.png" type="image/png">
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="El Claustro - Contracultura Gothic, Dark, Underground desde Latinoamérica">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)">
+    <meta property="og:description" content="Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica -teníamos más tiempo libre y estábamos inmersos en el darkeo-.
 El Release the Bats ya iba por su segunda edición (todo un clásico, era">
-<meta property="og:url" content="https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/">
-<meta property="og:image" content="https://elclaustro.cl/content/images/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg">
-<meta property="article:published_time" content="2023-07-01T10:17:51.000Z">
-<meta property="article:modified_time" content="2023-07-01T13:10:41.000Z">
-<meta property="article:tag" content="Archivo Histórico">
-<meta property="article:tag" content="El Claustro">
-<meta property="article:tag" content="Columnas">
-<meta property="article:publisher" content="https://www.facebook.com/elclaustrocl">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)">
-<meta name="twitter:description" content="Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica -teníamos más tiempo libre y estábamos inmersos en el darkeo-.
+    <meta property="og:url" content="https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/">
+    <meta property="og:image" content="https://elclaustro.cl/content/images/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg">
+    <meta property="article:published_time" content="2023-07-01T10:17:51.000Z">
+    <meta property="article:modified_time" content="2023-07-01T13:10:41.000Z">
+    <meta property="article:tag" content="Archivo Histórico">
+    <meta property="article:tag" content="El Claustro">
+    <meta property="article:tag" content="Columnas">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/elclaustrocl">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)">
+    <meta name="twitter:description" content="Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica -teníamos más tiempo libre y estábamos inmersos en el darkeo-.
 El Release the Bats ya iba por su segunda edición (todo un clásico, era">
-<meta name="twitter:url" content="https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/">
-<meta name="twitter:image" content="https://elclaustro.cl/content/images/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg">
-<meta name="twitter:label1" content="Written by">
-<meta name="twitter:data1" content="El Claustro">
-<meta name="twitter:label2" content="Filed under">
-<meta name="twitter:data2" content="Archivo Histórico, El Claustro, Columnas">
-<meta name="twitter:site" content="@elclaustro">
-<meta property="og:image:width" content="1600">
-<meta property="og:image:height" content="1200">
-<script type="application/ld+json">
+    <meta name="twitter:url" content="https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/">
+    <meta name="twitter:image" content="https://elclaustro.cl/content/images/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="El Claustro">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Archivo Histórico, El Claustro, Columnas">
+    <meta name="twitter:site" content="@elclaustro">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="1200">
+    
+    <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": "El Claustro",
+        "name": "El Claustro - Contracultura Gothic, Dark, Underground desde Latinoamérica",
         "url": "https://elclaustro.cl/",
         "logo": {
             "@type": "ImageObject",
@@ -77,14 +106,18 @@ El Release the Bats ya iba por su segunda edición (todo un clásico, era">
     "mainEntityOfPage": "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/"
 }
     </script>
-<meta name="generator" content="Ghost 5.59">
-<link rel="alternate" type="application/rss+xml" title="El Claustro" href="../rss/index.html">
-<script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="a61dff95d90921053c708db288" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elclaustro.cl/" crossorigin="anonymous"></script>
-<link href="https://elclaustro.cl/webmentions/receive/" rel="webmention">
-<script defer src="../public/cards.min.js%3Fv=f5c29f47ef"></script>
-<link rel="stylesheet" type="text/css" href="../public/cards.min.css%3Fv=f5c29f47ef.css">
-<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
+    <meta name="generator" content="Ghost 5.74">
+    <link rel="alternate" type="application/rss+xml" title="El Claustro - Contracultura Gothic, Dark, Underground desde Latinoamérica" href="../rss/index.html">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="a61dff95d90921053c708db288" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elclaustro.cl/" crossorigin="anonymous"></script>
+    
+    <link href="https://elclaustro.cl/webmentions/receive/" rel="webmention">
+    <script defer src="../public/cards.min.js%3Fv=d88866a7db"></script>
+    <link rel="stylesheet" type="text/css" href="../public/cards.min.css%3Fv=d88866a7db.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5PR0W1LV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -93,7 +126,7 @@ El Release the Bats ya iba por su segunda edición (todo un clásico, era">
 
   gtag('config', 'G-PJ5PR0W1LV');
 </script>
-
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1838316-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -102,254 +135,373 @@ El Release the Bats ya iba por su segunda edición (todo un clásico, era">
 
   gtag('config', 'UA-1838316-1');
 </script>
-<style>:root {--ghost-accent-color: #ffffff;}</style>
+<style>:root {--ghost-accent-color: #898989;}</style>
+
 </head>
-<body class="post-template tag-archivo-historico tag-el-claustro tag-columnas is-head-left-logo">
-<div class="gh-site">
-<header id="gh-head" class="gh-head gh-outer">
-<div class="gh-head-inner gh-inner">
-<div class="gh-head-brand">
-<div class="gh-head-brand-wrapper">
-<a class="gh-head-logo" href="../index.html">
-<img src="../content/images/2023/05/logo-4.svg" alt="El Claustro">
-</a>
-</div>
-<button class="gh-search gh-icon-btn" aria-label="Buscar" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
-<button class="gh-burger"></button>
-</div>
-<nav class="gh-head-menu">
-<ul class="nav">
-<li class="nav-inicio"><a href="../index.html">Inicio</a></li>
-<li class="nav-publicar-contenido"><a href="../publicar-mi-contenido/index.html">Publicar Contenido</a></li>
-<li class="nav-label-promotion"><a href="../label-promotion/index.html">Label &amp; Promotion</a></li>
-<li class="nav-comunidad-discord"><a href="https://discord.gg/sxXd9bhwAj">Comunidad Discord</a></li>
-<li class="nav-nosotros"><a href="../nosotros/index.html">Nosotros</a></li>
+<body class="post-template tag-archivo-historico tag-el-claustro tag-columnas has-serif-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-stacked gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="../index.html">
+                    <img src="../content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground desde Latinoamérica">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-inicio"><a href="../index.html">Inicio</a></li>
+    <li class="nav-sello-digital-y-distribucion"><a href="../label-promotion/index.html">Sello Digital y Distribución</a></li>
+    <li class="nav-nosotros"><a href="../nosotros/index.html">Nosotros</a></li>
+    <li class="nav-hecho-en-chile"><a href="../elclaustro-cl-presenta-hecho-en-chile/index.html">Hecho en Chile</a></li>
+    <li class="nav-partners"><a href="../federacion-underground-media-partners/index.html">Partners</a></li>
+    <li class="nav-spotify"><a href="https://open.spotify.com/show/2lvzojAtayHDqz5WDoXoLr">Spotify</a></li>
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
 </ul>
-</nav>
-<div class="gh-head-actions">
-<button class="gh-search gh-icon-btn" aria-label="Buscar" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
-</div>
-</div>
+
+                    <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>        </nav>
+
+        <div class="gh-navigation-actions">
+        </div>
+
+    </div>
 </header>
-<div class="site-content">
-<main class="site-main">
-<article class="gh-article post tag-archivo-historico tag-el-claustro tag-columnas featured">
-<header class="gh-article-header gh-canvas">
-<span class="gh-article-meta">
-por <a href="../author/elclaustro/index.html">El Claustro</a>
-en la categoría
-<a class="gh-article-tag" href="../tag/archivo-historico/index.html">Archivo Histórico</a>
-—
-<time datetime="01-07-2023">1 de jul. de 2023</time>
-</span>
-<h1 class="gh-article-title">Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)</h1>
-<figure class="gh-article-image kg-width-wide">
-<img srcset="../content/images/size/w400/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 400w,
-                   ../content/images/size/w720/2023/07/64485763_10156777050172950_1988253490756976640_n.jpgg 720w,
-                  ../content/images/size/w960/2023/07/64485763_10156777050172950_1988253490756976640_n.jpgpg 960w,
-                 ../content/images/size/w1200/2023/07/64485763_10156777050172950_1988253490756976640_n.jpgjpg 1200w,
-                ../content/images/size/w2000/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg.jpg 2000w" sizes="(max-width: 1200px) 100vw, 1200px" src="../content/images/size/w1200/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg" alt="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)">
-<figcaption><em>El "Charro" está abajo, mirando quizás qué weá.</em></figcaption>
-</figure>
-</header>
-<div class="gh-content gh-canvas">
-<p>Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica <em>-teníamos más tiempo libre y estábamos inmersos en el darkeo-</em>.<br>El Release the Bats ya iba por su segunda edición <em>(todo un clásico, era el año del RTB II junto al Cine Arte Alameda</em>) y empezábamos a ver cómo muchas de nuestras ideas y proyectos del tipo "<em>oye te cachai si....</em>", comenzaban a plasmarse en hechos.</p>
+
+    
+
+<main class="gh-main">
+
+    <article class="gh-article post tag-archivo-historico tag-el-claustro tag-columnas featured">
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="../tag/archivo-historico/index.html">Archivo Histórico</a>
+            <h1 class="gh-article-title is-title">Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)</h1>
+
+            <div class="gh-article-meta">
+                <div class="gh-article-author-image">
+                            <a href="../author/elclaustro/index.html">
+                                <img class="author-profile-image" src="../content/images/size/w160/2023/08/icon-1.png" alt="El Claustro" />
+                            </a>
+                </div>
+                <div class="gh-article-meta-wrapper">
+                    <h4 class="gh-article-author-name"><a href="../author/elclaustro/index.html">El Claustro</a></h4>
+                    <div class="gh-article-meta-content">
+                        <time class="gh-article-meta-date" datetime="2023-07-01">1 de jul. de 2023</time>
+                            <span class="gh-article-meta-length"><span class="bull">—</span> 5 min read</span>
+                    </div>
+                </div>
+            </div>
+
+                <figure class="gh-article-image">
+        <img
+            srcset="../content/images/size/w320/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 320w,
+                   ../content/images/size/w600/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 600w,
+                  ../content/images/size/w960/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 960w,
+                 ../content/images/size/w1200/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 1200w,
+                ../content/images/size/w2000/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 2000w"
+            src="../content/images/size/w1200/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg"
+            alt="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)"
+        >
+            <figcaption><em>El "Charro" está abajo, mirando quizás qué weá.</em></figcaption>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <p>Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica <em>-teníamos más tiempo libre y estábamos inmersos en el darkeo-</em>.<br>El Release the Bats ya iba por su segunda edición <em>(todo un clásico, era el año del RTB II  junto al Cine Arte Alameda</em>) y empezábamos a ver cómo muchas de nuestras ideas y proyectos del tipo "<em>oye te cachai si....</em>", comenzaban a plasmarse en hechos.</p>
 <p>Todo esto era impulsado por ese "darkeo interno" que teníamos, ya que, sinceramente, el espíritu del "Hazlo tú mismo" era lo único que teníamos a nuestro alcance para convertir nuestras ideas en algo tangible. No teníamos contactos, financiamiento, tampoco conocimientos y fuimos<em> -tal vez seguimos-</em> aprendiendo mucho en la praxis (se me arranca el marxismo), con más horizontes y metas que planificación alguna.</p>
 <p>En medio de ese clima, nos contacta alguien que se notaba andaba vampireando el mismo grupo sanguíneo. Detalle que personalmente me llamó mucho la atención, estaba buscando finalizar su<strong> tesis universitaria sobre<em> "lo gótico"</em> entre Monterrey <em>(el monte que se cree rey, escribía el Charro) y </em>Santiago.</strong></p>
 <p>Era la primera vez que veía que alguien fuera de nuestro pequeño y engrupido círculo, <strong>se tomaba muy en serio la identidad, cultura oscura, tanto como la tradicional</strong>, lo que hoy termino por resumir, o podríamos decir que "s<em>e coagula" (vampíricamente, per se) </em>, en qué es lo que significó Damián.</p>
-<p>El<em> Triste Charro</em> encarnó el ideal, el espíritu de lo que no sabíamos llamar, ese afán artistico, "intelectual", bicho raro, pero siempre gótico, oscuro, que llamamos "El Claustro".</p>
+<p>El<em> Triste Charro</em> encarnó el ideal, el espíritu de lo que no sabíamos llamar, ese afán artistico, "intelectual", bicho raro,  pero siempre gótico, oscuro, que  llamamos "El Claustro".</p>
 <p><em>(Di la verdad, Niennor... todos le decimos "El Closet")</em></p>
 <p><em>PD: Continuará.</em></p>
 <div class="kg-card kg-toggle-card" data-kg-toggle-state="close">
-<div class="kg-toggle-heading">
-<h4 class="kg-toggle-heading-text"><span>El Espistolario</span></h4>
-<button class="kg-toggle-card-icon">
-<svg id="Regular" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
-<path class="cls-1" d="M23.25,7.311,12.53,18.03a.749.749,0,0,1-1.06,0L.75,7.311" />
-</svg>
-</button>
-</div>
-<div class="kg-toggle-content"><p><span>Saludos desde México</span><br><span>6 messages</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="5422352e2521312e7a21263d3138143339353d387a373b39">[email&#160;protected]</span></span></a><span> 13 February 2007 at 04:30</span><br><span>To: </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="6d0304080303021f2d08010e010c181e191f02430e01">[email&#160;protected]</span></span></a><span>, </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="5e3f333f3a3b2b2d1e3b323d323f2b2d2a2c31703d32">[email&#160;protected]</span></span></a></p><p><span>Saludos</span></p><p><span>Mi nombre es Damián Escalante. En estos momentos me encuentro haciendo una investigación sobre los darks/góticos/goths y el uso que le dan a la fotografía como parte de mis requisitos de titulación. Parte de esta investigación se fundamenta en una comparación entre los espacios de Monterrey y Santiago de Chile. ¿Por qué Santiago? La verdad no sé, simplemente me llamó y pues ahí está. Parte de mi plan maquiavélico de realizar esta investigación tiene que ver con estar físicamente en Santiago de Chile, así que voy a cursar un semestre en la Universidad Mayor en el programa de intercambio este año comenzando en Marzo. Es decir, voy para allá.</span></p><p><span>Mis intenciones en este momento es hacerme de contactos por allá, conocer gente y pasearme por los espacios de Santiago y, si las cosas se permiten, platicar con gente de por allá que sea parte de la escena, grupo o movimiento para poder enriquecer mi investigación.</span></p><p><span>En estos momentos no tengo ni idea de qué es lo que esté sucediendo por allá, simplemente parto en ceros para una ciudad que promete mucho por lo que me han mencionado.</span></p><p><span>Quisiera saber si puedo contactarme con alguien de la revista cuando esté por allá, la verdad necesito cierta orientación sobre los espacios y conocer gente de Santiago que pueda apoyarme en esto.</span></p><p><span>Les agradezco cualquier información y el apoyo que puedan darme.</span></p><p><span>Les mando un abrazo y espero verlos por allá.</span></p><p><span>-- d</span><br><span>Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="a1cfc6c4ced3c6c4d3e1c6ccc0c8cd8fc2cecc">[email&#160;protected]</span></span></a><span> 14 February 2007 at 23:04</span><br><span>To: Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="5d2b3c272c28382773282f3438311d3a303c3431733e3230">[email&#160;protected]</span></span></a></p><p><span>Saludos Damian!</span></p><p><span>Soy Nicolás Georger, webmaster de El Claustro.</span><br><span>Mira, no tengo ningún problema en mostrarte parte de la escena chilena cuando vengas, aunque tampoco te ilusiones mucho jajaj, acá no hay una escena con bandas del calibre de Hocico o Gorgonas como en México, aunque si hay bastante gente goth/dark.</span><br><span>Cuando vengas, te integro a mi grupo de amigos, quienes llevamos varios años dentro de la escena, para que te lleves impresiones de lo que acá ocurre.</span><br><span>Avisame cuando te vienes para que coordinemos algo.</span><br><span>Un abrazo,</span></p><p><span>Nicolás</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="92e4f3e8e3e7f7e8bce7e0fbf7fed2f5fff3fbfebcf1fdff">[email&#160;protected]</span></span></a><span> 15 February 2007 at 14:51</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="6a040d0f05180d0f182a0d070b030644090507">[email&#160;protected]</span></span></a></p><p><span>¡Genial!</span></p><p><span>La verdad no me hago ilusiones en general, el hecho que haya gente por allá me es suficiente. La ciudad donde vivo tampoco hay mucho movimiento de gente y mucho menos grupos interesantes (con decirte que Gorgonas es una especie de mito urbano, nunca han llegado aquí aunque hay una chica que ha querido traerlos en repetidas ocasiones).</span></p><p><span>La investigación que hago tiene que ver con otras cuestiones más ligadas a la fotografía, aunque la verdad pasearme por los lugares de allá me va a dar otro respiro en comparación con lo que sucede por aquí.</span></p><p><span>Te agradezco mucho por el apoyo, llego por allá el 24 de febrero, tan pronto me instale y pase los trámites necesarios del gobierno y la universidad te envío un correo.</span></p><p><span>Un abrazo de vuelta y seguimos en contacto.</span></p><p><span>-- d</span></p><p><span>[Quoted text hidden]</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="1462756e6561716e3a61667d7178547379757d783a777b79">[email&#160;protected]</span></span></a><span> 28 February 2007 at 13:38</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="82ece5e7edf0e5e7f0c2e5efe3ebeeace1edef">[email&#160;protected]</span></span></a></p><p><span>Saludos de vuelta Nicolás.</span></p><p><span>Pues aquí estoy reportándome. Ya llegué a Santiago y he estado moviéndome poco en la ciudad, sólo he estado en las zonas turísticas como Providencia y Las Condes pero hoy ya visité el cento y la verdad esta ciudad me agrada mucho (independientemente de la escena).</span></p><p><span>Ahorita estoy hospedado en una casa en Providencia cerca del centro, como a ocho cuadras del metro Santa Isabel. Estoy tratando de conseguir un número de celular para poder comunicarme porque en donde estoy no hay teléfono.</span></p><p><span>Por lo pronto vi que va a haber un evento en un lugar que se llama el Bal le duc el sábado 3 de Marzo, y si revisé bien el mapa parece que está relativamente cerca de donde vivo. Quizá si tienes tiempo nos podemos ver por ahí el sábado y platicarte sobre cómo es mi proyecto más o menos.</span></p><p><span>No tengo internet en mi casa (ni tendré), así que probablemente hasta el 5 de Marzo, cuando comiencen las clases, podré revisar mi correo con mayor frecuencia, por lo pronto seguro el viernes lo reviso para ver si nos vemos por allá o no.</span></p><p><span>Un abrazo, espero que estés bien.</span></p><p><span>Seguimos en contacto.</span></p><p><span>-- d</span></p><p><span>Seguimos en contacto.</span></p><p><span>[Quoted text hidden]</span></p><p><span>Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="eb858c8e84998c8e99ab8c868a8287c5888486">[email&#160;protected]</span></span></a><span> 1 March 2007 at 11:39</span><br><span>To: Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="bec8dfc4cfcbdbc490cbccd7dbd2fed9d3dfd7d290ddd1d3">[email&#160;protected]</span></span></a></p><p><span>Saludos Damian:</span></p><p><span>me alegro que te haya agradado nuestra cuidad, al menos a mi me fascina, pese a que muchos la critican en exceso.</span><br><span>Dudo que vaya el sabado a Bal le Duc (Todo el mundo la llama simplemente "bale"), pero de todas formas el número de mi móvil es 8 813 9459</span><br><span>Estamos en contacto y nos ponemos de acuerdo para juntarnos un día y conversar.</span><br><span>Un abrazo,</span><br><span>Nicolás</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="9aecfbe0ebefffe0b4efe8f3fff6dafdf7fbf3f6b4f9f5f7">[email&#160;protected]</span></span></a><span> 8 March 2007 at 20:40</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="2e40494b415c494b5c6e49434f4742004d4143">[email&#160;protected]</span></span></a></p><p><span>Saludo de nuevo.</span></p><p><span>Ya no te he hablado en estos días porque sabrás que el jaleo de la universidad (los primeros días) está de miedo.</span></p><p><span>El sábado fui con el Victor al Bale y te cuento que salimos bien ebrios (arriba de la pelota, como creo que le dicen aquí). El muchacho en cuestión está ocupado en estos días y pues quería ver si tú tienes tiempo libre mañana o el sábado para echarnos un café (con pierna), te llemo mañana para ver si tienes tiempo.</span></p><p><span>Por cierto, parece que el sitio del claustro está caído, o al menos no me pude conectar ahorita.</span></p><p><span>Un abrazo, seguimos en contacto.</span></p></div>
-</div>
+            <div class="kg-toggle-heading">
+                <h4 class="kg-toggle-heading-text"><span>El Espistolario</span></h4>
+                <button class="kg-toggle-card-icon">
+                    <svg id="Regular" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path class="cls-1" d="M23.25,7.311,12.53,18.03a.749.749,0,0,1-1.06,0L.75,7.311"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="kg-toggle-content"><p><span>Saludos desde México</span><br><span>6 messages</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="33455249424656491d46415a565f73545e525a5f1d505c5e">[email&#160;protected]</span></span></a><span> 13 February 2007 at 04:30</span><br><span>To: </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="d6b8bfb3b8b8b9a496b3bab5bab7a3a5a2a4b9f8b5ba">[email&#160;protected]</span></span></a><span>, </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="caaba7abaeafbfb98aafa6a9a6abbfb9beb8a5e4a9a6">[email&#160;protected]</span></span></a></p><p><span>Saludos</span></p><p><span>Mi nombre es Damián Escalante. En estos momentos me encuentro haciendo una investigación sobre los darks/góticos/goths y el uso que le dan a la fotografía como parte de mis requisitos de titulación. Parte de esta investigación se fundamenta en una comparación entre los espacios de Monterrey y Santiago de Chile. ¿Por qué Santiago? La verdad no sé, simplemente me llamó y pues ahí está. Parte de mi plan maquiavélico de realizar esta investigación tiene que ver con estar físicamente en Santiago de Chile, así que voy a cursar un semestre en la Universidad Mayor en el programa de intercambio este año comenzando en Marzo. Es decir, voy para allá.</span></p><p><span>Mis intenciones en este momento es hacerme de contactos por allá, conocer gente y pasearme por los espacios de Santiago y, si las cosas se permiten, platicar con gente de por allá que sea parte de la escena, grupo o movimiento para poder enriquecer mi investigación.</span></p><p><span>En estos momentos no tengo ni idea de qué es lo que esté sucediendo por allá, simplemente parto en ceros para una ciudad que promete mucho por lo que me han mencionado.</span></p><p><span>Quisiera saber si puedo contactarme con alguien de la revista cuando esté por allá, la verdad necesito cierta orientación sobre los espacios y conocer gente de Santiago que pueda apoyarme en esto.</span></p><p><span>Les agradezco cualquier información y el apoyo que puedan darme.</span></p><p><span>Les mando un abrazo y espero verlos por allá.</span></p><p><span>-- d</span><br><span>Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="630d04060c1104061123040e020a0f4d000c0e">[email&#160;protected]</span></span></a><span> 14 February 2007 at 23:04</span><br><span>To: Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="691f0813181c0c13471c1b000c05290e04080005470a0604">[email&#160;protected]</span></span></a></p><p><span>Saludos Damian!</span></p><p><span>Soy Nicolás Georger, webmaster de El Claustro.</span><br><span>Mira, no tengo ningún problema en mostrarte parte de la escena chilena cuando vengas, aunque tampoco te ilusiones mucho jajaj, acá no hay una escena con bandas del calibre de Hocico o Gorgonas como en México, aunque si hay bastante gente goth/dark.</span><br><span>Cuando vengas, te integro a mi grupo de amigos, quienes llevamos varios años dentro de la escena, para que te lleves impresiones de lo que acá ocurre.</span><br><span>Avisame cuando te vienes para que coordinemos algo.</span><br><span>Un abrazo,</span></p><p><span>Nicolás</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="592f3823282c3c23772c2b303c35193e34383035773a3634">[email&#160;protected]</span></span></a><span> 15 February 2007 at 14:51</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="a4cac3c1cbd6c3c1d6e4c3c9c5cdc88ac7cbc9">[email&#160;protected]</span></span></a></p><p><span>¡Genial!</span></p><p><span>La verdad no me hago ilusiones en general, el hecho que haya gente por allá me es suficiente. La ciudad donde vivo tampoco hay mucho movimiento de gente y mucho menos grupos interesantes (con decirte que Gorgonas es una especie de mito urbano, nunca han llegado aquí aunque hay una chica que ha querido traerlos en repetidas ocasiones).</span></p><p><span>La investigación que hago tiene que ver con otras cuestiones más ligadas a la fotografía, aunque la verdad pasearme por los lugares de allá me va a dar otro respiro en comparación con lo que sucede por aquí.</span></p><p><span>Te agradezco mucho por el apoyo, llego por allá el 24 de febrero, tan pronto me instale y pase los trámites necesarios del gobierno y la universidad te envío un correo.</span></p><p><span>Un abrazo de vuelta y seguimos en contacto.</span></p><p><span>-- d</span></p><p><span>[Quoted text hidden]</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="c9bfa8b3b8bcacb3e7bcbba0aca589aea4a8a0a5e7aaa6a4">[email&#160;protected]</span></span></a><span> 28 February 2007 at 13:38</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="741a13111b06131106341319151d185a171b19">[email&#160;protected]</span></span></a></p><p><span>Saludos de vuelta Nicolás.</span></p><p><span>Pues aquí estoy reportándome. Ya llegué a Santiago y he estado moviéndome poco en la ciudad, sólo he estado en las zonas turísticas como Providencia y Las Condes pero hoy ya visité el cento y la verdad esta ciudad me agrada mucho (independientemente de la escena).</span></p><p><span>Ahorita estoy hospedado en una casa en Providencia cerca del centro, como a ocho cuadras del metro Santa Isabel. Estoy tratando de conseguir un número de celular para poder comunicarme porque en donde estoy no hay teléfono.</span></p><p><span>Por lo pronto vi que va a haber un evento en un lugar que se llama el Bal le duc el sábado 3 de Marzo, y si revisé bien el mapa parece que está relativamente cerca de donde vivo. Quizá si tienes tiempo nos podemos ver por ahí el sábado y platicarte sobre cómo es mi proyecto más o menos.</span></p><p><span>No tengo internet en mi casa (ni tendré), así que probablemente hasta el 5 de Marzo, cuando comiencen las clases, podré revisar mi correo con mayor frecuencia, por lo pronto seguro el viernes lo reviso para ver si nos vemos por allá o no.</span></p><p><span>Un abrazo, espero que estés bien.</span></p><p><span>Seguimos en contacto.</span></p><p><span>-- d</span></p><p><span>Seguimos en contacto.</span></p><p><span>[Quoted text hidden]</span></p><p><span>Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="f29c95979d80959780b2959f939b9edc919d9f">[email&#160;protected]</span></span></a><span> 1 March 2007 at 11:39</span><br><span>To: Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="6610071c1713031c4813140f030a26010b070f0a4805090b">[email&#160;protected]</span></span></a></p><p><span>Saludos Damian:</span></p><p><span>me alegro que te haya agradado nuestra cuidad, al menos a mi me fascina, pese a que muchos la critican en exceso.</span><br><span>Dudo que vaya el sabado a Bal le Duc (Todo el mundo la llama simplemente "bale"), pero de todas formas el número de mi móvil es 8 813 9459</span><br><span>Estamos en contacto y nos ponemos de acuerdo para juntarnos un día y conversar.</span><br><span>Un abrazo,</span><br><span>Nicolás</span></p><p><span>Damián Escalante </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="4731263d3632223d6932352e222b07202a262e2b6924282a">[email&#160;protected]</span></span></a><span> 8 March 2007 at 20:40</span><br><span>To: Nicolas Georger </span><a "https://elclaustro.cl/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/href"><span><span class="__cf_email__" data-cfemail="d8b6bfbdb7aabfbdaa98bfb5b9b1b4f6bbb7b5">[email&#160;protected]</span></span></a></p><p><span>Saludo de nuevo.</span></p><p><span>Ya no te he hablado en estos días porque sabrás que el jaleo de la universidad (los primeros días) está de miedo.</span></p><p><span>El sábado fui con el Victor al Bale y te cuento que salimos bien ebrios (arriba de la pelota, como creo que le dicen aquí). El muchacho en cuestión está ocupado en estos días y pues quería ver si tú tienes tiempo libre mañana o el sábado para echarnos un café (con pierna), te llemo mañana para ver si tienes tiempo.</span></p><p><span>Por cierto, parece que el sitio del claustro está caído, o al menos no me pude conectar ahorita.</span></p><p><span>Un abrazo, seguimos en contacto.</span></p></div>
+        </div>
 <p></p>
-</div>
-</article>
-<div class="gh-canvas">
-<div class="navigation">
-<a class="navigation-item navigation-previous" href="../the-breath-of-life-goth-coldwave-belgica-firma-con-spleen-y-presenta-single/index.html">
-<span class="navigation-label">Anterior</span>
-<h4 class="navigation-title">The Breath Of Life (goth, coldwave, Bélgica) firma con Spleen+ y presenta single</h4>
-</a>
-<a class="navigation-item navigation-next" href="../rrrrrrr-gothic-rock-uruguay-lanza-nuevo-material-llamado-nictalope-y-gestiona-futura-gira/index.html">
-<span class="navigation-label">Siguiente</span>
-<h4 class="navigation-title">RRRRRRR (Gothic Rock, Uruguay) lanza nuevo material llamado &quot;Nictálope&quot; y gestiona futura gira</h4>
-</a>
-</div>
-</div>
-<div class="related-wrapper gh-outer">
-<section class="related-posts gh-inner">
-<h3 class="related-title">
-<span class="text">Más contenido que te puede interesar...</span>
-</h3>
-<div class="post-feed">
-<article class="post tag-podcast tag-archivo-historico tag-el-claustro tag-discos-videos-y-playlists featured u-shadow">
-<a class="post-link" href="../elclaustro-cl-programa-17-de-febrero-2010/index.html">
-<img class="post-image u-object-fit" src="https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000" alt="ElClaustro.cl: Programa 17 de Febrero 2010" loading="lazy">
-<div class="post-wrapper">
-<header class="post-header">
-<span class="post-tag">Podcast</span>
-<h2 class="post-title">
-ElClaustro.cl: Programa 17 de Febrero 2010
-</h2>
-</header>
-<div class="post-excerpt">
-Emitido por Radio USACH 94.5 FM entre los años 2009-2011, teniendo
-</div>
-</div>
-<footer class="post-footer">
-<span class="post-more">Leer más</span>
-<div class="post-author">
-<span class="post-author-link">
-<img class="post-author-image" src="../content/images/size/w150/2023/08/icon-1.png" alt="El Claustro" loading="lazy">
-</span>
-</div>
-</footer>
-</a>
-</article> <article class="post tag-columnas tag-el-claustro tag-discos-videos-y-playlists tag-archivo-historico featured u-shadow">
-<a class="post-link" href="../archivo-historico-el-claustro-undeads-en-piso-hell-2007/index.html">
-<img class="post-image u-object-fit" src="../content/images/2023/06/undeads2.jpg" alt="Archivo Histórico El Claustro: Undeads en &quot;Piso Hell&quot; (2007)" loading="lazy">
-<div class="post-wrapper">
-<header class="post-header">
-<span class="post-tag">Columnas</span>
-<h2 class="post-title">
-Archivo Histórico El Claustro: Undeads en &quot;Piso Hell&quot; (2007)
-</h2>
-</header>
-<div class="post-excerpt">
-Año 2007, no teníamos nada más que el darkeo interno que nos
-</div>
-</div>
-<footer class="post-footer">
-<span class="post-more">Leer más</span>
-<div class="post-author">
-<span class="post-author-link">
-<img class="post-author-image" src="../content/images/size/w150/2023/08/icon-1.png" alt="El Claustro" loading="lazy">
-</span>
-</div>
-</footer>
-</a>
-</article> <article class="post tag-el-claustro tag-media-partners tag-noticias featured u-shadow">
-<a class="post-link" href="../dark-corp-y-el-claustro-preparan-alianza-de-medios-comunidades-digitales-e-iniciativas-culturales-underground/index.html">
-<img class="post-image u-object-fit" src="../content/images/2023/07/darkcorp-elclaustro.jpg" alt="Dark Corp y El Claustro preparan alianza de medios, comunidades digitales e iniciativas culturales underground" loading="lazy">
-<div class="post-wrapper">
-<header class="post-header">
-<span class="post-tag">El Claustro</span>
-<h2 class="post-title">
-Dark Corp y El Claustro preparan alianza de medios, comunidades digitales e iniciativas culturales underground
-</h2>
-</header>
-<div class="post-excerpt">
-Dos de las iniciativas más importantes en la escena dark de Chile,
-</div>
-</div>
-<footer class="post-footer">
-<span class="post-more">Leer más</span>
-<div class="post-author">
-<span class="post-author-link">
-<img class="post-author-image" src="../content/images/size/w150/2023/08/icon-1.png" alt="El Claustro" loading="lazy">
-</span>
-</div>
-</footer>
-</a>
-</article> <article class="post tag-discos-videos-y-playlists tag-el-claustro tag-chile featured u-shadow" style="--tag-color: #5f0066;">
-<a class="post-link" href="../elclaustro-cl-presenta-hecho-en-chile/index.html">
-<img class="post-image u-object-fit" src="../content/images/2023/06/chile.jpeg.webp" alt="ElClaustro.cl presenta &quot;Hecho en Chile&quot;" loading="lazy">
-<div class="post-wrapper">
-<header class="post-header">
-<span class="post-tag">Discos y Multimedia</span>
-<h2 class="post-title">
-ElClaustro.cl presenta &quot;Hecho en Chile&quot;
-</h2>
-</header>
-<div class="post-excerpt">
-A curated selection of Chilean Gothic, Postpunk, Darkwave, Industrial . Selección de músca dark, gótica y/o oscura hecha en Chile o por chilenos.
-</div>
-</div>
-<footer class="post-footer">
-<span class="post-more">Leer más</span>
-<div class="post-author">
-<span class="post-author-link">
-<img class="post-author-image" src="../content/images/size/w150/2023/08/icon-1.png" alt="El Claustro" loading="lazy">
-</span>
-</div>
-</footer>
-</a>
-</article> </div>
-</section>
-</div>
+        </section>
+
+    </article>
+
+
 </main>
-</div>
-<footer class="gh-foot gh-outer">
-<div class="gh-foot-inner gh-inner">
-<div class="gh-copyright">
-El Claustro - 2023
-</div>
-<nav class="gh-foot-menu">
-<ul class="nav">
-<li class="nav-rss"><a href="../rss/index.html">RSS</a></li>
-<li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
-<li class="nav-facebook"><a href="https://facebook.com/elclaustrocl">Facebook</a></li>
-<li class="nav-github"><a href="https://github.com/sredevopsdev/elclaustro">Github</a></li>
-<li class="nav-podcast"><a href="https://podcasters.spotify.com/pod/show/elclaustro">Podcast</a></li>
-<li class="nav-discord"><a href="https://discord.gg/sxXd9bhwAj">Discord</a></li>
-<li class="nav-reddit"><a href="https://www.reddit.com/r/elclaustro/">Reddit</a></li>
-<li class="nav-email"><a href="../cdn-cgi/l/email-protection.html#6900070f06290c050a05081c1a1d1b06470a05">email</a></li>
-<li class="nav-publicar-mi-contenido"><a href="../publicar-mi-contenido/index.html">Publicar mi contenido</a></li>
-<li class="nav-substack"><a href="https://substack.com/@elclaustro">Substack</a></li>
+
+
+        <section class="gh-container is-grid gh-outer">
+            <div class="gh-container-inner gh-inner">
+                <h2 class="gh-container-title">Read more</h2>
+                <div class="gh-feed">
+                        <article class="gh-card post">
+    <a class="gh-card-link" href="../liturgia/index.html">
+            <figure class="gh-card-image">
+                <img
+                    srcset="../content/images/size/w160/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 160w,
+                           ../content/images/size/w320/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 320w,
+                          ../content/images/size/w600/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 600w,
+                         ../content/images/size/w960/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 960w,
+                        ../content/images/size/w1200/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 1200w,
+                       ../content/images/size/w2000/format/webp/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg 2000w"
+                    sizes="320px"
+                    src="../content/images/size/w600/2023/11/WhatsApp-Image-2023-11-02-at-14.37.26.jpeg"
+                    alt="LITURGIA: Sábado 04 Noviembre, DJ Set invitado @elclaustrocl (Santiago, Chile)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">LITURGIA: Sábado 04 Noviembre, DJ Set invitado @elclaustrocl (Santiago, Chile)</h3>
+                <p class="gh-card-excerpt is-body">Sabado 04 de Noviembre 23:00hrs.
+
+El Rito Under Club en colaboración con Tenebrous presenta:
+
+🕯️ LITURGIA 🕯️
+
+El Rito Stage:
+
+Djs: @cristo666 - @elclaustrocl
+Goth Club Hits/ Dark Wave/Revival / Gothic Rock / Post Punk / Dark Synth / EBM
+
+Introducción: Lycia
+Bloques Especiales:
+
+ * London After Midnight
+ * Selofan
+ * Kontravoid
+
+
+
+Pista de baile y Terraza</p>
+            <footer class="gh-card-meta"><!--
+             -->                    <time class="gh-card-date" datetime="2023-11-03">3 de nov. de 2023</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post">
+    <a class="gh-card-link" href="../darkwave-02-noviembre-puerto-montt-chile/index.html">
+            <figure class="gh-card-image">
+                <img
+                    srcset="../content/images/size/w160/format/webp/2023/11/dubte.jpeg 160w,
+                           ../content/images/size/w320/format/webp/2023/11/dubte.jpeg 320w,
+                          ../content/images/size/w600/format/webp/2023/11/dubte.jpeg 600w,
+                         ../content/images/size/w960/format/webp/2023/11/dubte.jpeg 960w,
+                        ../content/images/size/w1200/format/webp/2023/11/dubte.jpeg 1200w,
+                       ../content/images/size/w2000/format/webp/2023/11/dubte.jpeg 2000w"
+                    sizes="320px"
+                    src="../content/images/size/w600/2023/11/dubte.jpeg"
+                    alt="Darkwave: 02 Noviembre (Puerto Montt, Chile)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Darkwave: 02 Noviembre (Puerto Montt, Chile)</h3>
+                <p class="gh-card-excerpt is-body">Quedaste con gusto a poco de halloween este jueves Nos volvemos a juntar bajo los sonidos oscuros en el subterráneo en esta ocasión estará presente todo el darkwave y synthpop de @martine1tot artista local que ya lo puedes escuchar por spotify, además la mejor selección musical para pasar un post</p>
+            <footer class="gh-card-meta"><!--
+             -->                    <time class="gh-card-date" datetime="2023-11-03">3 de nov. de 2023</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="../mascarada-goth-tea-party-gothla-2023/index.html">
+            <figure class="gh-card-image">
+                <img
+                    srcset="../content/images/size/w160/format/webp/2023/11/2.jpg 160w,
+                           ../content/images/size/w320/format/webp/2023/11/2.jpg 320w,
+                          ../content/images/size/w600/format/webp/2023/11/2.jpg 600w,
+                         ../content/images/size/w960/format/webp/2023/11/2.jpg 960w,
+                        ../content/images/size/w1200/format/webp/2023/11/2.jpg 1200w,
+                       ../content/images/size/w2000/format/webp/2023/11/2.jpg 2000w"
+                    sizes="320px"
+                    src="../content/images/size/w600/2023/11/2.jpg"
+                    alt="Mascarada Goth Tea Party - Gothla 2023"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Mascarada Goth Tea Party - Gothla 2023</h3>
+                <p class="gh-card-excerpt is-body">The Shadows Coven, Goth Tea Party 🇨🇱 y Scatha Bellydark tienen el agrado de invitarles a las celebraciones de ⤵️
+
+7° Gothla y 11° Fiesta del Té 🔮
+El sábado 18 de Noviembre 🗓
+De 19:00 a 23:30 hrs 🕒
+En Barrio Concha y Toro casona #38 📌
+
+🥀Danzas
+🥀Desfile
+🥀Fiesta de Té
+🥀Música</p>
+            <footer class="gh-card-meta"><!--
+             -->                    <time class="gh-card-date" datetime="2023-11-02">2 de nov. de 2023</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="../seatemples-gothic-shoegaze-chile-nos-evoca-hedonismos/index.html">
+            <figure class="gh-card-image">
+                <img
+                    srcset="../content/images/size/w160/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg 160w,
+                           ../content/images/size/w320/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg 320w,
+                          ../content/images/size/w600/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg 600w,
+                         ../content/images/size/w960/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg 960w,
+                        ../content/images/size/w1200/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg 1200w,
+                       ../content/images/size/w2000/format/webp/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpgR.jpg 2000w"
+                    sizes="320px"
+                    src="../content/images/size/w600/2023/10/WINE-AND-ROCKETS-SINGLE-COVER.jpg"
+                    alt="&quot;Wine and Rockets&quot;, el nuevo single de Seatemples (Darkwave, Chile) sazona con &quot;swing&quot; y destaca"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">&quot;Wine and Rockets&quot;, el nuevo single de Seatemples (Darkwave, Chile) sazona con &quot;swing&quot; y destaca</h3>
+                <p class="gh-card-excerpt is-body">Wine and Rockets y el apocalíptico hedonismo.
+
+
+
+Wine and Rockets [Maxi Single] by Seatemples
+
+
+
+La banda chilena Seatemples reconocida por la prensa como gothgaze ha lanzado su ultimo single  clip ‘Wine and Rockets’. La canción se aborda desde un mosaico de escenarios que se han vivido  mundialmente durante las últimas</p>
+            <footer class="gh-card-meta"><!--
+             -->                    <time class="gh-card-date" datetime="2023-10-29">29 de oct. de 2023</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                </div>
+            </div>
+        </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="../content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground desde Latinoamérica">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-rss"><a href="../rss/index.html">RSS</a></li>
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-facebook"><a href="https://facebook.com/elclaustrocl">Facebook</a></li>
+    <li class="nav-github"><a href="https://github.com/sredevopsdev/elclaustro">Github</a></li>
+    <li class="nav-podcast"><a href="https://podcasters.spotify.com/pod/show/elclaustro">Podcast</a></li>
+    <li class="nav-reddit"><a href="https://www.reddit.com/r/elclaustro/">Reddit</a></li>
+    <li class="nav-sredevops-org"><a href="https://sredevops.org">SREDevOps.org</a></li>
 </ul>
-</nav>
-<div class="gh-powered-by">
-<a href="https://ghost.org/" target="_blank" rel="noopener">Basado en Ghost</a>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+        
+
+    </div>
+</footer>    
 </div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
 </div>
-</footer>
-</div>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-<div class="pswp__container">
-<div class="pswp__item"></div>
-<div class="pswp__item"></div>
-<div class="pswp__item"></div>
-</div>
-<div class="pswp__ui pswp__ui--hidden">
-<div class="pswp__top-bar">
-<div class="pswp__counter"></div>
-<button class="pswp__button pswp__button--close" title="Cerrar (Esc)"></button>
-<button class="pswp__button pswp__button--share" title="Compartir"></button>
-<button class="pswp__button pswp__button--fs" title="Pantalla completa"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom +/-"></button>
-<div class="pswp__preloader">
-<div class="pswp__preloader__icn">
-<div class="pswp__preloader__cut">
-<div class="pswp__preloader__donut"></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class="pswp__share-tooltip"></div>
-</div>
-<button class="pswp__button pswp__button--arrow--left" title="Anterior (arrow left)"></button>
-<button class="pswp__button pswp__button--arrow--right" title="Siguiente (arrow right)"></button>
-<div class="pswp__caption">
-<div class="pswp__caption__center"></div>
-</div>
-</div>
-</div>
-</div>
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/built/main.min.js%3Fv=f5c29f47ef"></script>
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="../index.html">El Claustro</a> es<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/ngeorger"></a> licenciado <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"7fadac277c296f29","version":"2023.8.0","r":1,"b":1,"token":"88f2408d67094c87969981cd77476314","si":100}' crossorigin="anonymous"></script>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/built/source.js%3Fv=d88866a7db"></script>
+
+<style>
+    .gh-navigation-menu .nav-discord a,
+    .gh-navigation-menu .nav-facebook a,
+    .gh-navigation-menu .nav-github a,
+    .gh-navigation-menu .nav-instagram a,
+    .gh-navigation-menu .nav-linkedin a,
+    .gh-navigation-menu .nav-twitter a,
+    .gh-navigation-menu .nav-x a,
+    .gh-navigation-menu .nav-youtube a {
+        font-size: 0 !important;
+    }
+
+    .gh-navigation-menu .nav-discord a::before,
+    .gh-navigation-menu .nav-facebook a::before,
+    .gh-navigation-menu .nav-github a::before,
+    .gh-navigation-menu .nav-instagram a::before,
+    .gh-navigation-menu .nav-linkedin a::before,
+    .gh-navigation-menu .nav-twitter a::before,
+    .gh-navigation-menu .nav-x a::before,
+    .gh-navigation-menu .nav-youtube a::before {
+        font-family: "Font Awesome 6 Brands";
+        display: inline-block;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .gh-navigation-menu .nav-discord a::before {content: "\f392"}
+    .gh-navigation-menu .nav-facebook a::before {content: "\f09a"}
+    .gh-navigation-menu .nav-github a::before {content: "\f09b"}
+    .gh-navigation-menu .nav-instagram a::before {content: "\f16d"}
+    .gh-navigation-menu .nav-linkedin a::before {content: "\f08c"}
+    .gh-navigation-menu .nav-twitter a::before {content: "\f099"}
+    .gh-navigation-menu .nav-x a::before {content: "\e61b"}
+    .gh-navigation-menu .nav-youtube a::before {content: "\f167"}
+</style>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82bd32cea9da645b","version":"2023.10.0","r":1,"token":"88f2408d67094c87969981cd77476314","b":1}' crossorigin="anonymous"></script>
 </body>
 </html>
