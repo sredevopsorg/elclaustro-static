@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Entrevista a Ľahká Múza</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="/assets/built/screen.css?v=760f2360d7">
+    <link rel="preload" as="script" href="/assets/built/source.js?v=760f2360d7">
+    
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(/assets/fonts/inter-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: normal;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: italic;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=760f2360d7">
+
+    <style>
+        :root {
+            --background-color: #141414
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="icon" href="https://elclaustro.cl/content/images/size/w256h256/2023/08/icon.png" type="image/png">
+    <link rel="canonical" href="https://elclaustro.cl/entrevista-a-lahka-muza/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Entrevista a Ľahká Múza">
+    <meta property="og:description" content="Original: Publicado el 17 Diciembre 2006
+
+Cedida amablemente por Leonardo Kendall (Abracadaver magazine)
+
+Es motivo de gran orgullo presentar la siguiente entrevista a la serpiente Gudrun, vocalista de la banda darkwave/ritual; Lahka Muza. Para hablar de sus comienzos musicales debemos remontarnos al ano 1984, ano en que junto a">
+    <meta property="og:url" content="https://elclaustro.cl/entrevista-a-lahka-muza/">
+    <meta property="og:image" content="https://elclaustro.cl/content/images/2023/06/1885.webp">
+    <meta property="article:published_time" content="2023-05-30T11:06:12.000Z">
+    <meta property="article:modified_time" content="2023-06-02T17:09:32.000Z">
+    <meta property="article:tag" content="Entrevistas">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/elclaustrocl">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Entrevista a Ľahká Múza">
+    <meta name="twitter:description" content="Original: Publicado el 17 Diciembre 2006
+
+Cedida amablemente por Leonardo Kendall (Abracadaver magazine)
+
+Es motivo de gran orgullo presentar la siguiente entrevista a la serpiente Gudrun, vocalista de la banda darkwave/ritual; Lahka Muza. Para hablar de sus comienzos musicales debemos remontarnos al ano 1984, ano en que junto a">
+    <meta name="twitter:url" content="https://elclaustro.cl/entrevista-a-lahka-muza/">
+    <meta name="twitter:image" content="https://elclaustro.cl/content/images/2023/06/1885.webp">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="El Claustro">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Entrevistas">
+    <meta name="twitter:site" content="@elclaustro">
+    <meta name="twitter:creator" content="@elclaustro">
+    <meta property="og:image:width" content="620">
+    <meta property="og:image:height" content="350">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "El Claustro - Contracultura Gothic, Dark, Underground",
+        "url": "https://elclaustro.cl/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://elclaustro.cl/content/images/2023/05/logo-4.svg"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "El Claustro",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://elclaustro.cl/content/images/2023/08/icon-1.png",
+            "width": 512,
+            "height": 512
+        },
+        "url": "https://elclaustro.cl/author/elclaustro/",
+        "sameAs": [
+            "https://elclaustro.cl",
+            "https://twitter.com/elclaustro"
+        ]
+    },
+    "headline": "Entrevista a Ľahká Múza",
+    "url": "https://elclaustro.cl/entrevista-a-lahka-muza/",
+    "datePublished": "2023-05-30T11:06:12.000Z",
+    "dateModified": "2023-06-02T17:09:32.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://elclaustro.cl/content/images/2023/06/1885.webp",
+        "width": 620,
+        "height": 350
+    },
+    "keywords": "Entrevistas",
+    "description": "Original: Publicado el 17 Diciembre 2006\n\nCedida amablemente por Leonardo Kendall (Abracadaver magazine)\n\nEs motivo de gran orgullo presentar la siguiente entrevista a la serpiente Gudrun, vocalista de la banda darkwave/ritual; Lahka Muza. Para hablar de sus comienzos musicales debemos remontarnos al ano 1984, ano en que junto a 667, Dr. K y German, irrumpen ante la euforia post punk y new wave de la época. En 1988 hacen su debut con la grabación de un álbum en vivo llamado “Schizofonia” y la fi",
+    "mainEntityOfPage": "https://elclaustro.cl/entrevista-a-lahka-muza/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.87">
+    <link rel="alternate" type="application/rss+xml" title="El Claustro - Contracultura Gothic, Dark, Underground" href="https://elclaustro.cl/rss/">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="a61dff95d90921053c708db288" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elclaustro.cl/" crossorigin="anonymous"></script>
+    
+    <link href="https://elclaustro.cl/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=760f2360d7"></script><style>:root {--ghost-accent-color: #ff0000;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=760f2360d7">
+    <script defer data-domain="elclaustro.cl" src="https://plausible.io/js/script.js"></script>
+<meta name="google-site-verification" content="gwZ3GCtYRKG2l0H6Xjv11qrhwO4ZE1J189khJkW916I" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5PR0W1LV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ5PR0W1LV');
+</script>
+
+</head>
+<body class="post-template tag-entrevistas has-serif-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-stacked gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://elclaustro.cl">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-nosotros"><a href="https://elclaustro.cl/nosotros/">Nosotros</a></li>
+    <li class="nav-distribucion-digital-label"><a href="https://elclaustro.cl/label-promotion/">Distribución (Digital Label)</a></li>
+    <li class="nav-musica"><a href="https://elclaustro.cl/elclaustro-cl-presenta-hecho-en-chile/">Música</a></li>
+    <li class="nav-partners"><a href="https://elclaustro.cl/federacion-underground-media-partners/">Partners</a></li>
+    <li class="nav-threads"><a href="https://threads.net/elclaustrocl/">Threads</a></li>
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://open.spotify.com/show/2lvzojAtayHDqz5WDoXoLr">Spotify</a></li>
+    <li class="nav-reddit"><a href="https://reddit.com/r/elclaustro">Reddit</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+</ul>
+
+                    <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>        </nav>
+
+        <div class="gh-navigation-actions">
+        </div>
+
+    </div>
+</header>
+
+    
+
+<main class="gh-main">
+
+    <article class="gh-article post tag-entrevistas featured">
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="https://elclaustro.cl/tag/entrevistas/">Entrevistas</a>
+            <h1 class="gh-article-title is-title">Entrevista a Ľahká Múza</h1>
+
+            <div class="gh-article-meta">
+                <div class="gh-article-author-image instapaper_ignore">
+                            <a href="/author/elclaustro/">
+                                <img class="author-profile-image" src="/content/images/size/w160/2023/08/icon-1.png" alt="El Claustro">
+                            </a>
+                </div>
+                <div class="gh-article-meta-wrapper">
+                    <h4 class="gh-article-author-name"><a href="/author/elclaustro/">El Claustro</a></h4>
+                    <div class="gh-article-meta-content">
+                        <time class="gh-article-meta-date" datetime="2023-05-30">30 de may. de 2023</time>
+                            <span class="gh-article-meta-length"><span class="bull">—</span> 10 min read</span>
+                    </div>
+                </div>
+            </div>
+
+                <figure class="gh-article-image">
+        <picture>
+            <source srcset="/content/images/size/w2000/2023/06/1885.webp" media="(min-width: 2000px)">
+            <source srcset="/content/images/size/w1200/2023/06/1885.webp" media="(min-width: 1200px)">
+            <source srcset="/content/images/size/w960/2023/06/1885.webp" media="(min-width: 960px)">
+            <source srcset="/content/images/size/w600/2023/06/1885.webp" media="(min-width: 600px)">
+            <source srcset="/content/images/size/w320/2023/06/1885.webp" media="(min-width: 320px)">
+            <img src="/content/images/size/w1200/2023/06/1885.webp" alt="Entrevista a Ľahká Múza">
+        </picture>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body drop-cap">
+            <p><em>Original: Publicado el 17 Diciembre 2006</em></p><p><em>Cedida amablemente por Leonardo Kendall (Abracadaver magazine)</em></p><blockquote>Es motivo de gran orgullo presentar la siguiente entrevista a la serpiente Gudrun, vocalista de la banda darkwave/ritual; Lahka Muza. Para hablar de sus comienzos musicales debemos remontarnos al ano 1984, ano en que junto a 667, Dr. K y German, irrumpen ante la euforia post punk y new wave de la época. En 1988 hacen su debut con la grabación de un álbum en vivo llamado “Schizofonia” y la finalización del gobierno comunista en 1989 otorga un nuevo amanecer cultural en la República Checa en donde Lahka Muza encuentra nuevos aliados para seguir avanzando como banda. A fines de 1990 German decide retirarse y esto provoca grandes cuestionamientos en cuanto a su orientación musical. La pérdida de este músico no demora en reflejar a una banda más minimalista y con su segunda realización, “Nevinnost”, entran a los charts de popularidad en su país. Este gran suceso artístico no impide que Dr.K se aleje definitivamente. Lahka Muza es ahora un dúo que limita sus presentaciones en vivo y se concentra en las grabaciones de su tercer disco: “Tien Bolesti”. “Zoon Records” estima conveniente apoyar a Gudrun y 667 y ellos se deciden por contratar a un bajista para sus nuevas presentaciones.</blockquote><blockquote>Durante 1994 y 1995 la banda toma un nuevo rumbo y la adición de máquinas y secuencias electrónicas marca un estilo más industrial. Esta manera de enfrentar la música permite las grabaciones para su segundo álbum oficial: “Chvenie Absolutna” bajo el alero de “Indies Records”. Lo mostrado en la placa los lleva a presentarse en el Alternativa Festival, en Praga, junto a bandas como “Asmas Tietchens”, “Kapotte Music”, “Esplendor Geometrico”, etc. El éxito de Lahka Muza ya no tiene cuestionamientos y en Bratislava se presentan en el primer festival gótico de su país con una respuesta abrumadora. La distribución obtenida en “Indies Records” hace que diversas publicaciones del extranjero pongan sus ojos en su inusual música. Terminando 1997, Voda se integra como guitarrista y graban suficiente material para un nuevo registro, “Sen Ohraniceneho Zivota” que se edita a comienzos de 1998 bajo “Sonicca Recs”. Ese mismo ano comienzan con su página web y esto les permite tener muchas reacciones de diversos medios especializados y dedicados al darkwave y electrónica. Lentamente se comienzan los trabajos para un nuevo disco y en el 2000 aparece finalmente “Cesty Svetla Plynu Temnotou”, esta vez, realizado por Black Flame Recs. Lo que sigue son numerosas presentaciones en las que logran el reconocimiento de importantes publicaciones como Zillo, Side Line, Orkus, Vampiria y Black Magazine.</blockquote><blockquote>Para cuando estés leyendo esta entrevista se habrá editado “V Zablesku Vecnosti”, su más reciente disco.</blockquote><blockquote>Gudrun también es parte de Hieros Gamos, un proyecto paralelo en el que destacan las secuencias y en donde se le otorga una importancia fundamental a la performance. Al habla la mujer que nos roba el sueno de este último tiempo…</blockquote><p><strong>Abracadaver: Qué conoces de Chile?</strong></p><p>Gudrun: Te vas a sorprender con mi respuesta, pero mucho: es un país asombroso en América del Sur con una cultura original muy atrayente, personas muy cordiales y pasado dictatorial sangriento: Y como soy una mujer que gusta de los viajes (desgraciadamente yo he viajado sólo a América del Sur con mi dedo en el mapa) yo conozco por los libros y documentales las bellezas increíbles de sus Parques Nacionales, Los Andes, El desierto de Atacama y La Patagonia. También la magia de Rapa Nui, isla que pertenece a la administración de Chile. Por otro lado, ya llevo más de cinco años en contacto con una persona importante en los medios - con el director de la radio Futuro, estación radial en Santiago y que es gran promotor de la música oscura en tu país - Rolando Ramos. Debido a la presentación de nuestros discos en su programa, nosotros tenemos también en Chile nuestros entusiastas seguidores… eso es muy agradable…</p><p><strong>A: Qué fuerzas intervienen en la formación de Lahka Muza y cuales son algunas de las ideas originales e inspiraciones para la banda?</strong></p><p>G: Yo me consagro a la música con 677 (el autor de nuestra música, letras, guitarrista y programador) hace más de 20 anos: En primer lugar era un sentimiento artístico muy profundo dentro de nosotros que quizás influyó en que tomáramos estos caminos por el arte independiente y nos encontráramos: Como en nuestros comienzos, también ahora somos un tipo experimental de banda que explora los límites de ciertos géneros musicales y qué intenta integrar en su música los ecos de mundos milenarios y mágicos…</p><p><strong>A: Me gustaría preguntar por alguna de tus referencias literarias</strong></p><p>G: Debido a que somos personas del tipo renacentista, es natural que la literatura, igualmente cine o el arte vanguardista, nos influya de manera directa, incluso ahora: A través de los anos nosotros hemos atesorado toneladas de libros de una amplia gama. Desde los netamente de estudio (la astronomía, la informática, la psicología) hasta los trabajos básicos de los taoístas o existencialistas modernos claro: Y por sobre todo esto, destacamos los grandes trabajos de Gustav Meyrink o Ladislav Klíma… y algunos hechiceros milenarios:</p><p><strong>A: Qué piensas de la escena musical eslovaca? Yo estoy muy lejos de tu país, me gustaría saber más cosas…</strong></p><p>G: Eslovaquia es un país pequeno y frío (5 mil habitantes) en el medio de Europa y desde el 1 de mayo, miembro de la Unión europea. Es un país fuertemente católico y por consiguiente el arte como tal encuentra un espacio pequeno. Los proyectos interesantes y actividades innovadoras se cuentan con los dedos de la mano: y a estos patrones se ciñe la escena en la música oscura eslovaca: Nosotros aquí somos considerados como una banda de culto y hemos tocado, mayormente, en los otros países de la Unión Europea.</p><p><strong>A: Que bandas de tu país crees que son interesantes de chequear?</strong></p><p>G: Ciertamente el deathrock de “The Last Days of Jesus”, el Noise-Industrial de Einleistungzeit y el EBM de Disharmony…</p><p><strong>A: Y que es lo que distingue el sonido de Lahka Muza de las otras bandas?</strong></p><p>G: Como yo soy parte de la banda es muy difícil responder a esto y ser objetiva. Creo que esto se debería preguntar a las personas que escuchan nuestra música para ver esto desde sus propios puntos de vista…</p><p><strong>A: El proceso de desarrollo para una presentación en vivo debe ser un trabajo duro… podrías decirnos como, finalmente, llegas al concepto de lo que quieres representar en vivo?</strong></p><p>G: Sí, en eso tienes razón: es un trabajo muy duro: principalmente porque nosotros también queremos que nuestras presentaciones en vivo lleven a nuestros oyentes a experimentar lo complejo de nuestra música y debido a esto nosotros representamos nuestros discos de la manera más completa. Con el mismo sonido que se escucha en el registro. No nos gusta enganar a las audiencias en las presentaciones que tenemos mediante voces emuladas o instrumentos grabados… lo nuestro es tocar todo en vivo… Diría que somos excelentes músicos y siempre esperamos que la gente pueda valorar eso…</p><p><strong>A: Personalmente estoy muy interesado en tus presentaciones en vivo ya que se muestran algunos elementos del fetish y cosas relacionadas, quiero decir, trata de acercar a los lectores con lo que se pueden encontrar cuando Lahka Muza llegue a sus ciudades…</strong></p><p>G: Debo decir que tratamos de otorgar a nuestra música un estilo visual interesante y nuestras performances ayudan a mostrar los lados más oscuros de la belleza… pero no somos personas radicales en este sentido… tratamos por medio de la exageración mostrar belleza en nuestro arte. Y ya que la vida está en constante evolución, nosotros tratamos de reflejar en nuestras actuaciones estos cambios…</p><p><strong>A: Es obvio que “Tien bolesti”, “Chvenie absolútna, “Sen ohraniceného Ã…Â¾ivota” “Tien Bolesti” y “Cesty svetla plynú temnotou” lo han hecho muy bien pero, simplemente por curiosidad, cuantas copias de cada Cd han vendido?</strong></p><p>G: Debido a que nosotros pertenecemos al tipo de banda más experimental y que, adicionalmente, no cantamos en inglés, es comprensible que nuestros discos se editen en ediciones limitadas de quinientas o mil copias… En estos momentos los cds más antiguos están completamente agotados y de los últimos trabajos nos quedan algunas copias disponibles…</p><p><strong>A: Yo diría que eres una persona muy sensible, realmente admiro tu visión de la vida, del amor, del aprendizaje que tienes día a día… eso me impresiona. Es algo especial, quiero decir, más que una gran artista eres una persona que cuenta con algo de experiencia. Podrías compartir con nosotros un momento culminante en tu carrera musical y en tu vida?</strong></p><p>G: Gracias por este boceto que haces de mi persona… Es verdad que nuestra música es, de alguna manera, autobiográfica: Y durante esos 39 años de mi existencia han pasado en mi vida muchas cosas de diversa índole: es verdaderamente difícil escoger para un espacio tan pequeno algo que describir: Pero una cosa está clara. Uno de los giros más significantes en nuestras vidas fue un accidente automovilístico muy serio que pasó hace 11 anos atrás, tras ofrecer uno de nuestros mejores recitales. Aunque la situación mejoró después del choque que fue realmente horrible, realmente la presencia de alguien ahí estuvo protegiéndonos y poniendo una mano sobre nosotros… Por suerte nos recuperamos milagrosamente de las lesiones y después de tres anos retomamos los escenarios: yo pienso que esta experiencia significativa influyó en nuestro desarrollo y no sólo en lo musical sino también en nuestras vidas: Cuando enfrentas la muerte, te enteras del secreto de lo esencial:</p><p><strong>A: Cuentanos más sobre tu nuevo cd, ¿que tópicos estarás cubriendo en “V záblesku vecnosti”? (“In a Flash of Eternity”).</strong></p><p>G: En el primer caso, musical y filosóficamente sigue a nuestra placa anterior “Cesty svetla plynú temnotou”, aunque en las nuevas composiciones nosotros experimentamos más significativamente con las partes rítmicas y vocales. Entregamos todo esto con toques minimalistas, teclados y guitarras… Y para nuestros fans en Chile tenemos muy buenas noticias. En la radio Futuro, Rolando Ramos estará programando nuestro nuevo álbum: Y además de las nueve canciones nuevas, este disco está reforzado con material multimedia para PC. Así que es un trabajo muy elaborado y con una presentación en digipack blanco de tres tapas, muy hermosa. Cualquier persona que se interese en este material puede ordenarlo directo con nuestro distribuidor en el sitio: <a href="https://www.dangus.net/?ref=elclaustro.cl" rel="noopener">www.dangus.net</a></p><p><strong>A: Háblanos del concepto que capturan en la cubierta del disco “V záblesku vecnosti”. Por qué deciden colocar un dibujo en vez de una foto?, Quién lo dibujó y que es lo que representa?</strong></p><p>G: Como lo mencioné anteriormente, es un digipack blanco que tiene una imagen verde en cuyo motivo se observan tres figuras angelicales entrelazadas… de rasgos claramente femeninos… Y siempre pensamos que tan inusual cubierta debería tener como base este concepto concreto que fue realizado por un amigo de tendencia surrealista que estampó esto de acuerdo a nuestras ideas. El aspecto del disco es como el de un libro antiguo… Algo que sorprende mucho es la sección visual que hemos incluido en él…</p><p><strong>A: El álbum viene con mucho material multimedia… Háblanos más de este aspecto…</strong></p><p>G: Después de 20 anos en la escena y después del importante trabajo en nuestro proyecto visual Hieros Gamos, decidimos elaborar este importante material para PC. Ahí se encuentra nuestra completa discografía, la letra de nuestros discos anteriores que también pueden encontrarse en inglés, dos video clips y una extensa galería de 252 fotografías divididas en siete temáticas, Black Angels, Into Babylon, Space Family, Passion of Stage, Touch of Nymphs, Cybernetic World y Gods of Hunt. Hemos tratado de acercar más nuestro trabajo al público que no tiene la oportunidad de vernos en vivo y de revelar más aspectos nuestros que tan solo la música que hacemos…</p><p><strong>A: Realmente quiero saber más sobre tu cooperación con LederStahl y el asunto del clip en esa companía:</strong></p><p>G: Debido a que también me dedico al diseno de modas y ropa que usamos en nuestras presentaciones en Hieros Gamos, recibí una oferta el ano pasado desde el sello polaco Leder Stahl, quienes realizan extravagantes vestidos de metal y con los que diseno mi propio y original set de ropa. Ellos crearon una imagen para mí y me proporcionaron un hermoso vestido metálico que usamos para “Suenos de Metal” del debut de Hieros Gamos. Por todo esto se nos ocurrió que nuestro video se hiciera bajo la producción de Leder Stahl:</p><p><strong>A: Qué bandas están escuchando en estos días?</strong></p><p>G: En un principio nosotros escuchábamos varios tipos de música: Desde lo más clásico al rock and roll de los 50 `, industrial, electrónico, ambiental, world y dance music: Nosotros no nos limitamos a un género específico: Disfrutamos de la música en toda su expresión y quizás lo único que separe los estilos musicales sea la intensidad y profundidad de cada expresión artística… esa sería nuestra única manera de medición al respecto. Recientemente he visto la película Frida, acerca de la vida de la pintora mexicana Frida Kahlo y me conseguí la música incidental. Me agradan las baladas espanolas que se escuchan en la película y las considero tan buenas como el mismo film.</p><p><strong>A: De que se trata todo eso de tu proyecto paralelo Hieros Gamos?… Nos interesa mucho saber más detalles…</strong></p><p>G: Hieros Gamos es nuestro proyecto paralelo en donde hacemos música electrónica y performances. 667 y yo estamos en él y también incluimos a “The Black Cats” (teatralización). La música se basa en bases electrónicas hechas en módulos… es algo más que Lahka Muza. Lo más importante acá son las performances y actuación. El concepto de Lahka Muza no podía cubrir todas nuestras actividades y para esto le dimos vida a Hieros Gamos. A fines de este año pensamos grabar nuestro álbum debut y presentar el material visual en el que hemos estado trabajando ahora último… Y con toda seguridad es más posible que con Hieros Gamos, debido a la simplicidad que tiene al solo usar máquinas, podamos visitar Chile y presentarnos en vivo!!!… Lo hemos pensado mucho en realidad…</p><p><strong>A: Han realizado alguna presentación recientemente que quieran mencionar? (como Hieros Gamos)</strong></p><p>G: Sí, tocamos como cabezas de cartel en un gran festival de tatuajes y piercings en nuestra ciudad Bratislava. Con Lahka Muza y Hieros Gamos tenemos muchas fechas programadas para tocar en Europa.</p><p><strong>A: Existe alguna posibilidad real de tener a Lahka Muza tocando en Chile?</strong></p><p>G: Yo pienso que sería una gran experiencia para ambos! Y es verdad que nosotros hemos hablado un poco sobre este hipotético tour con Rolando. El problema es que es necesario volar de Europa por todo el Atlántico y sólo los boletos planos más el equipo musical: Ninguna cosa fácil o barata: Pero uno nunca sabe lo que la vida trae: Pero ciertamente yo habría visitado Chile en el futuro cercano muy probablemente:</p><p><strong>A: Bien Gudrun, espero que ahora los lectores de Abracadaver tengan una completa visión de lo que sucede al interior de tu agrupación. Algún comentario final?</strong></p><p>G: Yo espero que hayas recogido suficiente información estimulante e interesante y me gustaría también invitarte a chequear nuestro sitio web: <a href="http://www.lahkamuza.net/?ref=elclaustro.cl" rel="noopener">http://www.lahkamuza.net</a>, en donde podrás enterarte de todas nuestras novedades:</p><p>Y para terminar esto me gustaría saludar a la gente sabiendo que el límite de lo bueno y lo malo se cruza justo en la recta hacia el corazón humano: Más que usar sus oídos, escuchen este latido genial que vive dentro de nosotros: nada puede ser más real!!!</p><figure class="kg-card kg-embed-card"><iframe src="https://open.spotify.com/embed/album/6Iix4wUzIuMAhPuEwTKHOM" width="100%" height="500px" frameborder="0" min-height="500px" allowtransparency="true" allow="encrypted-media"></iframe></figure>
+        </section>
+
+    </article>
+
+
+</main>
+
+
+            <section class="gh-container is-grid gh-outer">
+                <div class="gh-container-inner gh-inner">
+                    <h2 class="gh-container-title">Read more</h2>
+                    <div class="gh-feed">
+                            <article class="gh-card post featured">
+    <a class="gh-card-link" href="/obra-maestra-dune-2-es-la-cuspide-y-tal-vez-el-adios-del-cine-como-lo-conocemos/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/06/dune-2-wb-Large.png 160w,
+                            /content/images/size/w320/format/webp/2024/06/dune-2-wb-Large.png 320w,
+                            /content/images/size/w600/format/webp/2024/06/dune-2-wb-Large.png 600w,
+                            /content/images/size/w960/format/webp/2024/06/dune-2-wb-Large.png 960w,
+                            /content/images/size/w1200/format/webp/2024/06/dune-2-wb-Large.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/06/dune-2-wb-Large.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/06/dune-2-wb-Large.png"
+                    alt="Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos</h3>
+                <p class="gh-card-excerpt is-body">Villeneuve tiene un don para reorientar a la audiencia y en cómo digieren el lenguaje visual de sus mundos. Estamos viendo, escuchando y sintiendo el crescendo de un género vivo como se suponía que debía ser visto, escuchado y sentido.</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post featured">
+    <a class="gh-card-link" href="/ataraxia-vuelve-a-chile-17-agosto-2024-en-blondie/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/ataraxia-en-chile-2024.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/ataraxia-en-chile-2024.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/ataraxia-en-chile-2024.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/ataraxia-en-chile-2024.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/ataraxia-en-chile-2024.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/ataraxia-en-chile-2024.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/ataraxia-en-chile-2024.jpg"
+                    alt="Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie</h3>
+                    <p class="gh-card-excerpt is-body">Es una alegría preparanos para el regreso triunfal de Ataraxia a Chile, una de las bandas más emblemáticas dentro de sonidos dark, gótico, medieval y/o folk. Tras prácticamente dos décadas de ausencia, la agrupación italiana nos deleitará con su &quot;Centaurea Tour&quot;, un espectáculo que promete transportar a</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post">
+    <a class="gh-card-link" href="/podcast-entre-las-sombras-repasan-sus-mejores-momentos-hoy-conversan-sobre-bandas-femeninas-de-los-80s-y-90s/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/entre-las-sombras.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/entre-las-sombras.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/entre-las-sombras.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/entre-las-sombras.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/entre-las-sombras.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/entre-las-sombras.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/entre-las-sombras.jpg"
+                    alt="Podcast &quot;Entre las Sombras&quot; repasan sus mejores momentos, hoy  conversan sobre Bandas Femeninas de los 80s y 90s"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Podcast &quot;Entre las Sombras&quot; repasan sus mejores momentos, hoy  conversan sobre Bandas Femeninas de los 80s y 90s</h3>
+                    <p class="gh-card-excerpt is-body">Ver en YouTube
+
+Las mujeres siempre han tenido un rol muy importante dentro de nuestra cultura en muchos ámbitos, sobre todo en el artístico. Creadoras, referentes y musas, que con su talento y pasión, constituyen un pilar fundamental dentro de nuestra historia.
+
+Hoy hablamos de algunas bandas icónicas de nuestra</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post featured">
+    <a class="gh-card-link" href="/euroshima-leyenda-del-darkwave-latinoamericano-nuevamente-en-chile-junto-a-temple-solar-y-spellbound-tributo-a-siouxsie-and-the-banshees-este-24-de-mayo-2024-en-bal-le-duc/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/euroshima-en-chile-2024-1.jpg"
+                    alt="Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc</h3>
+                    <p class="gh-card-excerpt is-body">WORLD GOTH DAY CHILE 🇨🇱 GOTH PARTY
+
+▪️ Viernes 24 de Mayo en @baleduc.oficial ▪️
+
+Estaremos junto a @templesolar.darkwavegoth Y @spellbound_tributo_siouxsie
+
+Temple Solar (Gothic Rock, Chile) liberó su último single “World of Lies”Esta canción introspectiva y enigmática explora la idea de cómo pueden existir intenciones
+ocultas detrás de</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                    </div>
+                </div>
+            </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://podcasters.spotify.com/pod/show/elclaustro">Spotify</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+    <li class="nav-facebook"><a href="https://facebook.com/elclaustrocl">Facebook</a></li>
+    <li class="nav-reddit"><a href="https://www.reddit.com/r/elclaustro/">Reddit</a></li>
+    <li class="nav-github"><a href="https://github.com/sredevopsorg">Github</a></li>
+    <li class="nav-sredevops-org"><a href="https://sredevops.org/">SREDevOps.org</a></li>
+    <li class="nav-sweetcaroline-cl"><a href="https://SweetCaroline.cl">SweetCaroline.cl</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+
+    </div>
+</footer>    
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/built/source.js?v=760f2360d7"></script>
+
+<style>
+    .nav .nav-discord a,
+    .nav .nav-facebook a,
+    .nav .nav-github a,
+    .nav .nav-instagram a,
+    .nav .nav-threads a,
+    .nav .nav-twitter a,
+    .nav .nav-x a,
+    .nav .nav-spotify a,
+    .nav .nav-reddit a,
+    .nav .nav-youtube a {
+        font-size: 0 !important;
+    }
+
+    .nav .nav-discord a::before,
+    .nav .nav-facebook a::before,
+    .nav .nav-github a::before,
+    .nav .nav-instagram a::before,
+    .nav .nav-threads a::before,
+    .nav .nav-twitter a::before,
+    .nav .nav-x a::before,
+    .nav .nav-spotify a::before,
+    .nav .nav-reddit a::before,
+    .nav .nav-youtube a::before {
+        font-family: "Font Awesome 6 Brands";
+        display: inline-block;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .nav .nav-discord a::before {content: "\f392"}
+    .nav .nav-facebook a::before {content: "\f09a"}
+    .nav .nav-github a::before {content: "\f09b"}
+    .nav .nav-instagram a::before {content: "\f16d"}
+    .nav .nav-threads a::before {content: "\e618"}
+    .nav .nav-twitter a::before {content: "\f099"}
+    .nav .nav-x a::before {content: "\e61b"}
+    .nav .nav-spotify a::before {content: "\f1bc"}
+    .nav .nav-reddit a::before {content: "\f1a1"}
+    .nav .nav-youtube a::before {content: "\f167"}
+</style>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a4f15797add88ac',t:'MTcyMTI3MDE4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

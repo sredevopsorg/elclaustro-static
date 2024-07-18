@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>El Claustro - Contracultura Gothic, Dark, Underground</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="/assets/built/screen.css?v=760f2360d7">
+    <link rel="preload" as="script" href="/assets/built/source.js?v=760f2360d7">
+    
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(/assets/fonts/inter-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: normal;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: italic;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=760f2360d7">
+
+    <style>
+        :root {
+            --background-color: #141414
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <meta name="description" content="Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano">
+    <link rel="icon" href="https://elclaustro.cl/content/images/size/w256h256/2023/08/icon.png" type="image/png">
+    <link rel="canonical" href="https://elclaustro.cl/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://elclaustro.cl/page/2/">
+    
+    <meta property="og:site_name" content="El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta property="og:description" content="Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano">
+    <meta property="og:url" content="https://elclaustro.cl/">
+    <meta property="og:image" content="https://elclaustro.cl/content/images/2023/06/Screenshot-2023-06-03-at-12.24.39.png">
+    <meta property="article:publisher" content="https://www.facebook.com/elclaustrocl">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta name="twitter:description" content="Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano">
+    <meta name="twitter:url" content="https://elclaustro.cl/">
+    <meta name="twitter:image" content="https://elclaustro.cl/content/images/2023/06/Screenshot-2023-06-03-at-12.24.39-1.png">
+    <meta name="twitter:site" content="@elclaustro">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="460">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "El Claustro - Contracultura Gothic, Dark, Underground",
+        "url": "https://elclaustro.cl/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://elclaustro.cl/content/images/2023/05/logo-4.svg"
+        }
+    },
+    "url": "https://elclaustro.cl/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://elclaustro.cl/content/images/2023/05/back-victorian.jpeg",
+        "width": 1200,
+        "height": 779
+    },
+    "mainEntityOfPage": "https://elclaustro.cl/",
+    "description": "Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.87">
+    <link rel="alternate" type="application/rss+xml" title="El Claustro - Contracultura Gothic, Dark, Underground" href="https://elclaustro.cl/rss/">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="a61dff95d90921053c708db288" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elclaustro.cl/" crossorigin="anonymous"></script>
+    
+    <link href="https://elclaustro.cl/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=760f2360d7"></script><style>:root {--ghost-accent-color: #ff0000;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=760f2360d7">
+    <script defer data-domain="elclaustro.cl" src="https://plausible.io/js/script.js"></script>
+<meta name="google-site-verification" content="gwZ3GCtYRKG2l0H6Xjv11qrhwO4ZE1J189khJkW916I" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5PR0W1LV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ5PR0W1LV');
+</script>
+
+</head>
+<body class="home-template has-serif-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-stacked gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://elclaustro.cl">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-nosotros"><a href="https://elclaustro.cl/nosotros/">Nosotros</a></li>
+    <li class="nav-distribucion-digital-label"><a href="https://elclaustro.cl/label-promotion/">Distribución (Digital Label)</a></li>
+    <li class="nav-musica"><a href="https://elclaustro.cl/elclaustro-cl-presenta-hecho-en-chile/">Música</a></li>
+    <li class="nav-partners"><a href="https://elclaustro.cl/federacion-underground-media-partners/">Partners</a></li>
+    <li class="nav-threads"><a href="https://threads.net/elclaustrocl/">Threads</a></li>
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://open.spotify.com/show/2lvzojAtayHDqz5WDoXoLr">Spotify</a></li>
+    <li class="nav-reddit"><a href="https://reddit.com/r/elclaustro">Reddit</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+</ul>
+
+                    <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>        </nav>
+
+        <div class="gh-navigation-actions">
+        </div>
+
+    </div>
+</header>
+
+    
+
+        <section class="gh-header is-highlight has-image gh-outer">
+
+
+    <div class="gh-header-inner gh-inner">
+
+            <div class="gh-header-left">
+                    <article class="gh-card post tag-cine tag-columnas featured">
+    <a class="gh-card-link" href="/obra-maestra-dune-2-es-la-cuspide-y-tal-vez-el-adios-del-cine-como-lo-conocemos/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/06/dune-2-wb-Large.png 160w,
+                            /content/images/size/w320/format/webp/2024/06/dune-2-wb-Large.png 320w,
+                            /content/images/size/w600/format/webp/2024/06/dune-2-wb-Large.png 600w,
+                            /content/images/size/w960/format/webp/2024/06/dune-2-wb-Large.png 960w,
+                            /content/images/size/w1200/format/webp/2024/06/dune-2-wb-Large.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/06/dune-2-wb-Large.png 2000w"
+                    sizes="(max-width: 767px) calc(100vw - max(8vmin, 40px)), 640px"
+                    src="/content/images/size/w600/2024/06/dune-2-wb-Large.png"
+                    alt="Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Cine</p>
+            <h3 class="gh-card-title is-title">Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos</h3>
+                <p class="gh-card-excerpt is-body">Villeneuve tiene un don para reorientar a la audiencia y en cómo digieren el lenguaje visual de sus mundos. Estamos viendo, escuchando y sintiendo el crescendo de un género vivo como se suponía que debía ser visto, escuchado y sentido.</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>            </div>
+            <div class="gh-header-middle">
+                    <article class="gh-card post tag-eventos tag-noticias tag-chile featured">
+    <a class="gh-card-link" href="/ataraxia-vuelve-a-chile-17-agosto-2024-en-blondie/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/ataraxia-en-chile-2024.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/ataraxia-en-chile-2024.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/ataraxia-en-chile-2024.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/ataraxia-en-chile-2024.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/ataraxia-en-chile-2024.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/ataraxia-en-chile-2024.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/ataraxia-en-chile-2024.jpg"
+                    alt="Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Eventos</p>
+            <h3 class="gh-card-title is-title">Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie</h3>
+                    <p class="gh-card-excerpt is-body">Es una alegría preparanos para el regreso triunfal de Ataraxia a Chile, una de las bandas más emblemáticas dentro de sonidos dark, gótico, medieval y/o folk. Tras prácticamente dos décadas de ausencia, la agrupación italiana nos deleitará con su &quot;Centaurea Tour&quot;, un espectáculo que promete transportar a</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                    <article class="gh-card post tag-podcasts tag-archivo-historico tag-chile tag-discos-videos-y-playlists tag-noticias">
+    <a class="gh-card-link" href="/podcast-entre-las-sombras-repasan-sus-mejores-momentos-hoy-conversan-sobre-bandas-femeninas-de-los-80s-y-90s/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/entre-las-sombras.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/entre-las-sombras.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/entre-las-sombras.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/entre-las-sombras.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/entre-las-sombras.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/entre-las-sombras.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/entre-las-sombras.jpg"
+                    alt="Podcast &quot;Entre las Sombras&quot; repasan sus mejores momentos, hoy  conversan sobre Bandas Femeninas de los 80s y 90s"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Podcasts</p>
+            <h3 class="gh-card-title is-title">Podcast &quot;Entre las Sombras&quot; repasan sus mejores momentos, hoy  conversan sobre Bandas Femeninas de los 80s y 90s</h3>
+                    <p class="gh-card-excerpt is-body">Ver en YouTube
+
+Las mujeres siempre han tenido un rol muy importante dentro de nuestra cultura en muchos ámbitos, sobre todo en el artístico. Creadoras, referentes y musas, que con su talento y pasión, constituyen un pilar fundamental dentro de nuestra historia.
+
+Hoy hablamos de algunas bandas icónicas de nuestra</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                    <article class="gh-card post tag-eventos tag-noticias tag-chile featured">
+    <a class="gh-card-link" href="/euroshima-leyenda-del-darkwave-latinoamericano-nuevamente-en-chile-junto-a-temple-solar-y-spellbound-tributo-a-siouxsie-and-the-banshees-este-24-de-mayo-2024-en-bal-le-duc/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/euroshima-en-chile-2024-1.jpg"
+                    alt="Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Eventos</p>
+            <h3 class="gh-card-title is-title">Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc</h3>
+                    <p class="gh-card-excerpt is-body">WORLD GOTH DAY CHILE 🇨🇱 GOTH PARTY
+
+▪️ Viernes 24 de Mayo en @baleduc.oficial ▪️
+
+Estaremos junto a @templesolar.darkwavegoth Y @spellbound_tributo_siouxsie
+
+Temple Solar (Gothic Rock, Chile) liberó su último single “World of Lies”Esta canción introspectiva y enigmática explora la idea de cómo pueden existir intenciones
+ocultas detrás de</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>            </div>
+            <div class="gh-header-right">
+                            <section class="gh-featured gh-outer">
+            <div class="gh-featured-inner gh-inner">
+                <h2 class="gh-featured-title">Featured</h2>
+                <div class="gh-featured-feed">
+                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/obra-maestra-dune-2-es-la-cuspide-y-tal-vez-el-adios-del-cine-como-lo-conocemos/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/06/dune-2-wb-Large.png 160w,
+                            /content/images/size/w320/format/webp/2024/06/dune-2-wb-Large.png 320w,
+                            /content/images/size/w600/format/webp/2024/06/dune-2-wb-Large.png 600w,
+                            /content/images/size/w960/format/webp/2024/06/dune-2-wb-Large.png 960w,
+                            /content/images/size/w1200/format/webp/2024/06/dune-2-wb-Large.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/06/dune-2-wb-Large.png 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/06/dune-2-wb-Large.png"
+                    alt="Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Obra maestra: Dune 2 es la cúspide y tal vez el adiós del cine como lo conocemos</h3>
+                <p class="gh-card-excerpt is-body">Villeneuve tiene un don para reorientar a la audiencia y en cómo digieren el lenguaje visual de sus mundos. Estamos viendo, escuchando y sintiendo el crescendo de un género vivo como se suponía que debía ser visto, escuchado y sentido.</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/ataraxia-vuelve-a-chile-17-agosto-2024-en-blondie/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/ataraxia-en-chile-2024.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/ataraxia-en-chile-2024.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/ataraxia-en-chile-2024.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/ataraxia-en-chile-2024.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/ataraxia-en-chile-2024.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/ataraxia-en-chile-2024.jpg 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/05/ataraxia-en-chile-2024.jpg"
+                    alt="Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Ataraxia vuelve a Chile: 17 Agosto 2024 en Blondie</h3>
+                    <p class="gh-card-excerpt is-body">Es una alegría preparanos para el regreso triunfal de Ataraxia a Chile, una de las bandas más emblemáticas dentro de sonidos dark, gótico, medieval y/o folk. Tras prácticamente dos décadas de ausencia, la agrupación italiana nos deleitará con su &quot;Centaurea Tour&quot;, un espectáculo que promete transportar a</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/euroshima-leyenda-del-darkwave-latinoamericano-nuevamente-en-chile-junto-a-temple-solar-y-spellbound-tributo-a-siouxsie-and-the-banshees-este-24-de-mayo-2024-en-bal-le-duc/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/euroshima-en-chile-2024-1.jpg 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/05/euroshima-en-chile-2024-1.jpg"
+                    alt="Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Euroshima, leyenda del darkwave latinoamericano, nuevamente en Chile junto a Temple Solar y Spellbound (Tributo a Siouxsie and the Banshees) este 24 de Mayo 2024 en Bal le Duc</h3>
+                    <p class="gh-card-excerpt is-body">WORLD GOTH DAY CHILE 🇨🇱 GOTH PARTY
+
+▪️ Viernes 24 de Mayo en @baleduc.oficial ▪️
+
+Estaremos junto a @templesolar.darkwavegoth Y @spellbound_tributo_siouxsie
+
+Temple Solar (Gothic Rock, Chile) liberó su último single “World of Lies”Esta canción introspectiva y enigmática explora la idea de cómo pueden existir intenciones
+ocultas detrás de</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/cadal-chile-post-punk-lanza-nuevo-single-vacio-incluye-video-retrato-del-under-de-valparaiso/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 160w,
+                            /content/images/size/w320/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 320w,
+                            /content/images/size/w600/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 600w,
+                            /content/images/size/w960/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 960w,
+                            /content/images/size/w1200/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/05/Screenshot-2024-05-06-at-13.43.41.png"
+                    alt="Cadal - Vacío (Post punk, Chile)"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Cadal (Chile, post punk) lanza nuevo single &quot;Vacío&quot;, incluye video-retrato del under de Valparaíso</h3>
+                    <p class="gh-card-excerpt is-body">Cadal -se les podría etiquetar &quot;a la rápida&quot; como post-punk- es originaria de Chile y una de las favoritas de El Claustro por su notable calidad musical, profesionalismo y creatividad. Fácilmente dentro de las mejores bandas, tanto de la &quot;nueva generación&quot; e incluso considerando las &quot;</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/the-mission-y-christian-death-en-latinoamerica-este-2024/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/04/438806009_954457023154052_440372002930761052_n.jpg"
+                    alt="The Mission y Christian Death en Latinoamérica este 2024"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The Mission y Christian Death en Latinoamérica este 2024</h3>
+                    <p class="gh-card-excerpt is-body">14 años se cumplirán desde ese octubre de 2010 cuando por primera vez nos visitó Christian Death (Valor Kand) y nos voló la cabeza. Fue una ocasión compleja, luego de incluso una productora inicial haya estafado a la banda y al público, pero siendo retomada por otra más seria y</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/la-corrupcion-en-el-mercado-de-playlists-o-como-fingir-a-lo-grande-en-spotify/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 160w,
+                            /content/images/size/w320/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 320w,
+                            /content/images/size/w600/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 600w,
+                            /content/images/size/w960/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 960w,
+                            /content/images/size/w1200/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 2000w"
+                    sizes="80px"
+                    src="/content/images/size/w600/2024/04/Screenshot-2024-04-25-at-05.47.42.png"
+                    alt="La corrupción en el mercado de playlists o cómo fingir a lo grande en Spotify"
+                    
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">La corrupción en el mercado de playlists o cómo fingir a lo grande en Spotify</h3>
+                    <p class="gh-card-excerpt is-body">A lo largo de los años, he visto algo nuevo entre las bandas y es comparar transmisiones y seguidores. Todo bien, pero también he visto regularmente señales de alerta con artistas que presentan cifras de transmisión en auge repentino y picos en el crecimiento de seguidores o ubicaciones de listas</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                </div>
+            </div>
+        </section>
+            </div>
+
+
+
+
+    </div>
+
+</section>
+
+
+
+
+<section class="gh-container is-grid has-sidebar gh-outer">
+    <div class="gh-container-inner gh-inner">
+        
+            <h2 class="gh-container-title">
+                Latest
+            </h2>
+
+        <main class="gh-main">
+            <div class="gh-feed">
+
+                                        <article class="gh-card post">
+    <a class="gh-card-link" href="/manto-negro-presenta-kiepja-somberwind-este-miercoles-08-de-mayo-en-mibaruntitled/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/438081333_17938687775818263_1488454388135550864_n.jpg"
+                    alt="Manto Negro presenta: KIEPJA + SOMBERWIND este Miércoles 08 de Mayo en MiBar"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Manto Negro presenta: KIEPJA + SOMBERWIND este Miércoles 08 de Mayo en MiBar</h3>
+                    <p class="gh-card-excerpt is-body">“Dark Beauty VI”
+
+Una noche llena de sonidos profundos,misteriosos y envolventes….de magia melódica ,de luz y de belleza oscura !
+
+La cita es en MiBar ,el Miércoles 08 de Mayo ,desde las 21:00hrs.
+(Show puntualmente a las 22:00hrs.)
+Dirección : Avenida Santa Isabel 0138 / Esquina Avenida Condell / Providencia.</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post">
+    <a class="gh-card-link" href="/darkcorp-cl-presenta-fashion-goth-show-muerte-roja-inspirado-en-masque-of-red-death-e-a-poe/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg"
+                    alt="DarkCorp.cl Presenta: &quot;Fashion Goth Show: Muerte Roja&quot; (Inspirado en Masque of Red Death - E.A. Poe)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">DarkCorp.cl Presenta: &quot;Fashion Goth Show: Muerte Roja&quot; (Inspirado en Masque of Red Death - E.A. Poe)</h3>
+                    <p class="gh-card-excerpt is-body">🖤✨ ¡Atención amantes de la moda y del misterio! 🌙🦇
+
+Las entradas para la primera edición del Fashion Goth Show, inspirado en el cuento &quot;Muerte Roja&quot; de Edgar Allan Poe, ¡ya están a la venta! 🎟️
+
+Estamos emocionados de presentarles este evento único que fusiona moda, arte y magia en una</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/cadal-chile-post-punk-lanza-nuevo-single-vacio-incluye-video-retrato-del-under-de-valparaiso/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 160w,
+                            /content/images/size/w320/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 320w,
+                            /content/images/size/w600/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 600w,
+                            /content/images/size/w960/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 960w,
+                            /content/images/size/w1200/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/Screenshot-2024-05-06-at-13.43.41.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/Screenshot-2024-05-06-at-13.43.41.png"
+                    alt="Cadal - Vacío (Post punk, Chile)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Cadal (Chile, post punk) lanza nuevo single &quot;Vacío&quot;, incluye video-retrato del under de Valparaíso</h3>
+                    <p class="gh-card-excerpt is-body">Cadal -se les podría etiquetar &quot;a la rápida&quot; como post-punk- es originaria de Chile y una de las favoritas de El Claustro por su notable calidad musical, profesionalismo y creatividad. Fácilmente dentro de las mejores bandas, tanto de la &quot;nueva generación&quot; e incluso considerando las &quot;</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/the-mission-y-christian-death-en-latinoamerica-este-2024/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/438806009_954457023154052_440372002930761052_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/438806009_954457023154052_440372002930761052_n.jpg"
+                    alt="The Mission y Christian Death en Latinoamérica este 2024"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The Mission y Christian Death en Latinoamérica este 2024</h3>
+                    <p class="gh-card-excerpt is-body">14 años se cumplirán desde ese octubre de 2010 cuando por primera vez nos visitó Christian Death (Valor Kand) y nos voló la cabeza. Fue una ocasión compleja, luego de incluso una productora inicial haya estafado a la banda y al público, pero siendo retomada por otra más seria y</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/la-corrupcion-en-el-mercado-de-playlists-o-como-fingir-a-lo-grande-en-spotify/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 160w,
+                            /content/images/size/w320/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 320w,
+                            /content/images/size/w600/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 600w,
+                            /content/images/size/w960/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 960w,
+                            /content/images/size/w1200/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/Screenshot-2024-04-25-at-05.47.42.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/Screenshot-2024-04-25-at-05.47.42.png"
+                    alt="La corrupción en el mercado de playlists o cómo fingir a lo grande en Spotify"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">La corrupción en el mercado de playlists o cómo fingir a lo grande en Spotify</h3>
+                    <p class="gh-card-excerpt is-body">A lo largo de los años, he visto algo nuevo entre las bandas y es comparar transmisiones y seguidores. Todo bien, pero también he visto regularmente señales de alerta con artistas que presentan cifras de transmisión en auge repentino y picos en el crecimiento de seguidores o ubicaciones de listas</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post">
+    <a class="gh-card-link" href="/lacrimosa-reversiona-schakal-y-aqui-tenemos-un-adelanto/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/http___gather.fandalism.com_4465024--79CF136D-E368-41F9-8258056C9C89E5D8--0--739851--LACRIMOSASchakal2024StreamingSingleCover.jpg"
+                    alt="Lacrimosa reversiona &quot;Schakal&quot; y aquí tenemos un adelanto"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Lacrimosa reversiona &quot;Schakal&quot; y aquí tenemos un adelanto</h3>
+                    <p class="gh-card-excerpt is-body">Lacrimosa conmemora el 30° aniversario del lanzamiento original de &quot;Schakal&quot;, cación que, como a tantas y tantos otros nos marcó desde la primera vez que escuchamos ese simple, lúgubre, potente y siempre bienvenido Am (La m) distorsionado que anticipa una mística ad perpetuam con el lanzamiento de una</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/mana-kozi-kaya-por-primera-vez-en-chile-latam/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 160w,
+                            /content/images/size/w320/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 320w,
+                            /content/images/size/w600/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 600w,
+                            /content/images/size/w960/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 960w,
+                            /content/images/size/w1200/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/Screenshot-2024-04-09-at-20.10.04.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/Screenshot-2024-04-09-at-20.10.04.png"
+                    alt="Mana, Közi &amp; Kaya por primera vez en Chile &amp; LATAM."
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Mana, Közi &amp; Kaya por primera vez en Chile &amp; LATAM.</h3>
+                <p class="gh-card-excerpt is-body">Después de muchos años de espera, por fin veremos en vivo a uno de los máximos referentes del Visual Kei. Mana aterriza en Chile junto a Kaya (que estuvo hace poco por estos lares con Schwarz Stein) y su eterno compañero, el tremendo Közi</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/podcast-elclaustro-cl-31-marzo-2011/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 160w,
+                            /content/images/size/w320/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 320w,
+                            /content/images/size/w600/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 600w,
+                            /content/images/size/w960/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 960w,
+                            /content/images/size/w1200/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png"
+                    alt="Podcast ElClaustro.cl: 31 Marzo 2011"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Podcast ElClaustro.cl: 31 Marzo 2011</h3>
+                    <p class="gh-card-excerpt is-body">Escucharemos a: Lene Lovich; Lacrimosa; Epica; The Gathering; Rammstein; Depeche Mode; Nightwish; Theatre of Tragedy; Suspiria; Therion.
+
+Originalmente publicado en: 2011-03-31 19:53:03
+
+Escuchar en Spotify:
+
+ElClaustro.cl: 31 Marzo 2011Listen to this episode from ElClaustro.cl en Radio USACH (2009-2011) on Spotify. Escucharemos a: Lene Lovich; Lacrimosa; Epica;</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/ataraxia-presenta-viriditas-nueva-cancion-y-videoclip-inspirada-en-la-cultura-mexicana-del-dia-de-muertos/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 160w,
+                            /content/images/size/w320/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 320w,
+                            /content/images/size/w600/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 600w,
+                            /content/images/size/w960/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 960w,
+                            /content/images/size/w1200/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/03/Screenshot-2024-03-27-at-13.39.43.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/03/Screenshot-2024-03-27-at-13.39.43.png"
+                    alt="Ataraxia presenta &quot;Viriditas&quot;, nueva canción y videoclip, inspirada en la cultura mexicana del &quot;Día de Muertos&quot;"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Ataraxia presenta &quot;Viriditas&quot;, nueva canción y videoclip, inspirada en la cultura mexicana del &quot;Día de Muertos&quot;</h3>
+                    <p class="gh-card-excerpt is-body">Ataraxia (Italia, dark folk, darkwave) han lanzado nuevo material, llamado &quot;Viriditas&quot;. La canción formará parte del álbum número 29 en estudio &quot;Centaurea&quot; que será lanzado el 22 de mayo de 2024 a través del sello The Circle Music. El álbum contendrá ocho composiciones originales y dos</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post">
+    <a class="gh-card-link" href="/earth-inferno/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/03/CREAROCK1-4-.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/03/CREAROCK1-4-.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/03/CREAROCK1-4-.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/03/CREAROCK1-4-.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/03/CREAROCK1-4-.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/03/CREAROCK1-4-.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/03/CREAROCK1-4-.jpg"
+                    alt="Earth Inferno: Gothic Rock/Post Punk Night"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Earth Inferno: Gothic Rock/Post Punk Night</h3>
+                    <p class="gh-card-excerpt is-body">El viernes 8 de Marzo en Salas Crearock, Santiago, será una noche en la cual los sonidos del Rock Gótico y el Post Punk convergen para el deleite de los adeptos al sonido ochentero. La noche traerá a A TRAVÉS DEL MANTO, banda que proviene de las lluviosas tierras de</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/es-cada-vez-mas-relevante-que-las-bandas-sean-duenas-de-sus-propios-datos-y-audiencias-online/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/12/Data-locked.webp 160w,
+                            /content/images/size/w320/format/webp/2023/12/Data-locked.webp 320w,
+                            /content/images/size/w600/format/webp/2023/12/Data-locked.webp 600w,
+                            /content/images/size/w960/format/webp/2023/12/Data-locked.webp 960w,
+                            /content/images/size/w1200/format/webp/2023/12/Data-locked.webp 1200w,
+                            /content/images/size/w2000/format/webp/2023/12/Data-locked.webp 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/12/Data-locked.webp"
+                    alt="Es cada vez más relevante que las bandas sean dueñas de sus propios datos y audiencias online"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Es cada vez más relevante que las bandas sean dueñas de sus propios datos y audiencias online</h3>
+                    <p class="gh-card-excerpt is-body">Hoy en día, los músicos y las bandas enfrentan desafíos para maximizar los ingresos. La mayoría de las bandas culpan a las plataformas de streaming, y hay algo de verdad en ello , pero hay un problema mucho mayor, y es que las bandas a menudo carecen de una fuente sostenible</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                                        <article class="gh-card post featured">
+    <a class="gh-card-link" href="/las-estadisticas-de-audioglobe-sobre-las-ventas-de-musica-darkwave-en-2023-ya-estan-disponibles/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/12/Darkwave-music-store-1024x585.webp 160w,
+                            /content/images/size/w320/format/webp/2023/12/Darkwave-music-store-1024x585.webp 320w,
+                            /content/images/size/w600/format/webp/2023/12/Darkwave-music-store-1024x585.webp 600w,
+                            /content/images/size/w960/format/webp/2023/12/Darkwave-music-store-1024x585.webp 960w,
+                            /content/images/size/w1200/format/webp/2023/12/Darkwave-music-store-1024x585.webp 1200w,
+                            /content/images/size/w2000/format/webp/2023/12/Darkwave-music-store-1024x585.webp 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/12/Darkwave-music-store-1024x585.webp"
+                    alt="Las estadísticas de Audioglobe sobre las ventas de música darkwave en 2023 ya están disponibles"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Las estadísticas de Audioglobe sobre las ventas de música darkwave en 2023 ya están disponibles</h3>
+                    <p class="gh-card-excerpt is-body">Celebrando su 30 aniversario, Audioglobe , el distribuidor más importante de la escena darkwave, acaba de compartir una revisión estadística, que revela los cambios y tendencias en el género musical darkwave (y relacionados).
+
+Nuestros lectores seguramente recordarán que hemos informado sobre estas estadísticas durante años, hasta 2018, el primer año en</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>
+
+
+            </div>
+        </main>
+
+            <aside class="gh-sidebar">
+                <div class="gh-sidebar-inner">
+                    <section class="gh-about">
+                            <img class="gh-about-icon" src="https://elclaustro.cl/content/images/2023/08/icon.png" alt="El Claustro - Contracultura Gothic, Dark, Underground" loading="lazy">
+                        <h3 class="gh-about-title is-title">El Claustro - Contracultura Gothic, Dark, Underground</h3>
+                            <p class="gh-about-description is-body">Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano</p>
+                    </section>
+                        <section class="gh-recommendations">
+                            <h4 class="gh-sidebar-title">Recommendations</h4>
+                                <ul class="recommendations">
+        <li class="recommendation">
+            <a href="https://sredevops.org/" data-recommendation="66785ccdf036f70001676ce7" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://sredevops.org/content/images/2024/07/Icon-App-76x76@2x.png" alt="SREDevOps.org - SRE, DevOps, Cloud Native, Linux, AI" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SREDevOps.org - SRE, DevOps, Cloud Native, Linux, AI</h5>
+                <span class="recommendation-url">sredevops.org</span>
+                <p class="recommendation-description">SRE, DevOps, Cloud Native, Linux, AI - Español, Portugues (Brasil) and English.</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://sweetcaroline.cl/" data-recommendation="65fb9418e8738500016d6267" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://sweetcaroline.cl/wp-content/uploads/2021/08/cropped-icono-web-1-270x270.png" alt="SweetCaroline – Pastelería boutique, producción de calidad y tendencias" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SweetCaroline – Pastelería boutique, producción de calidad y tendencias</h5>
+                <span class="recommendation-url">sweetcaroline.cl</span>
+                <p class="recommendation-description">Pastelería boutique, producción de calidad y tendencias</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://atomiummagazine.cl/" data-recommendation="6546839a54f24a000152e932" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://atomiummagazine.cl/images/favicon-amc.png" alt="Atomium Magazine | inicio" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">Atomium Magazine | inicio</h5>
+                <span class="recommendation-url">atomiummagazine.cl</span>
+                <p class="recommendation-description">Industrial , EBM , Synth Pop</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://darkcorp.cl/" data-recommendation="65451f4e54f24a000152e931" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://i.imgur.com/d9NGz0T.jpg" alt="Dark Corp ®" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">Dark Corp ®</h5>
+                <span class="recommendation-url">darkcorp.cl</span>
+                <p class="recommendation-description">💀Corporativo Creativo &amp; Productora de Eventos💀 🕸️ Potenciamos y promovemos la cultura y el arte oscuro 🕸️</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://side-line.com/" data-recommendation="65427d20c0325a0001f9d989" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://www.side-line.com/wp-content/uploads/2021/10/cropped-side-line-logo-png-270x270.png" alt="SIDE-LINE MAGAZINE - Industrial electro post-punk music magazine" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SIDE-LINE MAGAZINE - Industrial electro post-punk music magazine</h5>
+                <span class="recommendation-url">side-line.com</span>
+                <p class="recommendation-description">Side-Line Magazine is your go-to source for the latest in industrial, electro and post-punk music. Stay updated with news, reviews, and exclusive interviews.</p>
+            </a>
+        </li>
+    </ul>
+
+                            <button data-portal="recommendations">See all <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></button>
+                        </section>
+                </div>
+            </aside>
+
+            <div class="gh-more is-title">
+                <a href="https://elclaustro.cl/page/2">See all <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></a>
+            </div>
+
+    </div>
+</section>
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://podcasters.spotify.com/pod/show/elclaustro">Spotify</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+    <li class="nav-facebook"><a href="https://facebook.com/elclaustrocl">Facebook</a></li>
+    <li class="nav-reddit"><a href="https://www.reddit.com/r/elclaustro/">Reddit</a></li>
+    <li class="nav-github"><a href="https://github.com/sredevopsorg">Github</a></li>
+    <li class="nav-sredevops-org"><a href="https://sredevops.org/">SREDevOps.org</a></li>
+    <li class="nav-sweetcaroline-cl"><a href="https://SweetCaroline.cl">SweetCaroline.cl</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+
+    </div>
+</footer>    
+</div>
+
+
+<script src="/assets/built/source.js?v=760f2360d7"></script>
+
+<style>
+    .nav .nav-discord a,
+    .nav .nav-facebook a,
+    .nav .nav-github a,
+    .nav .nav-instagram a,
+    .nav .nav-threads a,
+    .nav .nav-twitter a,
+    .nav .nav-x a,
+    .nav .nav-spotify a,
+    .nav .nav-reddit a,
+    .nav .nav-youtube a {
+        font-size: 0 !important;
+    }
+
+    .nav .nav-discord a::before,
+    .nav .nav-facebook a::before,
+    .nav .nav-github a::before,
+    .nav .nav-instagram a::before,
+    .nav .nav-threads a::before,
+    .nav .nav-twitter a::before,
+    .nav .nav-x a::before,
+    .nav .nav-spotify a::before,
+    .nav .nav-reddit a::before,
+    .nav .nav-youtube a::before {
+        font-family: "Font Awesome 6 Brands";
+        display: inline-block;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .nav .nav-discord a::before {content: "\f392"}
+    .nav .nav-facebook a::before {content: "\f09a"}
+    .nav .nav-github a::before {content: "\f09b"}
+    .nav .nav-instagram a::before {content: "\f16d"}
+    .nav .nav-threads a::before {content: "\e618"}
+    .nav .nav-twitter a::before {content: "\f099"}
+    .nav .nav-x a::before {content: "\e61b"}
+    .nav .nav-spotify a::before {content: "\f1bc"}
+    .nav .nav-reddit a::before {content: "\f1a1"}
+    .nav .nav-youtube a::before {content: "\f167"}
+</style>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a4f0ade19ad88ac',t:'MTcyMTI2OTc1MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
