@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>El Claustro - El Claustro - Contracultura Gothic, Dark, Underground</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="/assets/built/screen.css?v=760f2360d7">
+    <link rel="preload" as="script" href="/assets/built/source.js?v=760f2360d7">
+    
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(/assets/fonts/inter-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: normal;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-roman.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+        font-family: "EB Garamond";
+        font-style: italic;
+        font-weight: 400 800;
+        font-display: optional;
+        src: url(/assets/fonts/eb-garamond-italic.woff2?v=760f2360d7) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=760f2360d7">
+
+    <style>
+        :root {
+            --background-color: #141414
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="icon" href="https://elclaustro.cl/content/images/size/w256h256/2023/08/icon.png" type="image/png">
+    <link rel="canonical" href="https://elclaustro.cl/tag/el-claustro/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="El Claustro - El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta property="og:url" content="https://elclaustro.cl/tag/el-claustro/">
+    <meta property="og:image" content="https://elclaustro.cl/content/images/2023/05/back-victorian.jpeg">
+    <meta property="article:publisher" content="https://www.facebook.com/elclaustrocl">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="El Claustro - El Claustro - Contracultura Gothic, Dark, Underground">
+    <meta name="twitter:url" content="https://elclaustro.cl/tag/el-claustro/">
+    <meta name="twitter:image" content="https://elclaustro.cl/content/images/2023/05/back-victorian.jpeg">
+    <meta name="twitter:site" content="@elclaustro">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="779">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Series",
+    "publisher": {
+        "@type": "Organization",
+        "name": "El Claustro - Contracultura Gothic, Dark, Underground",
+        "url": "https://elclaustro.cl/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://elclaustro.cl/content/images/2023/05/logo-4.svg"
+        }
+    },
+    "url": "https://elclaustro.cl/tag/el-claustro/",
+    "name": "El Claustro",
+    "mainEntityOfPage": "https://elclaustro.cl/tag/el-claustro/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.87">
+    <link rel="alternate" type="application/rss+xml" title="El Claustro - Contracultura Gothic, Dark, Underground" href="https://elclaustro.cl/rss/">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="a61dff95d90921053c708db288" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elclaustro.cl/" crossorigin="anonymous"></script>
+    
+    <link href="https://elclaustro.cl/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=760f2360d7"></script><style>:root {--ghost-accent-color: #ff0000;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=760f2360d7">
+    <script defer data-domain="elclaustro.cl" src="https://plausible.io/js/script.js"></script>
+<meta name="google-site-verification" content="gwZ3GCtYRKG2l0H6Xjv11qrhwO4ZE1J189khJkW916I" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5PR0W1LV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ5PR0W1LV');
+</script>
+
+</head>
+<body class="tag-template tag-el-claustro has-serif-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-stacked gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://elclaustro.cl">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-nosotros"><a href="https://elclaustro.cl/nosotros/">Nosotros</a></li>
+    <li class="nav-distribucion-digital-label"><a href="https://elclaustro.cl/label-promotion/">Distribución (Digital Label)</a></li>
+    <li class="nav-musica"><a href="https://elclaustro.cl/elclaustro-cl-presenta-hecho-en-chile/">Música</a></li>
+    <li class="nav-partners"><a href="https://elclaustro.cl/federacion-underground-media-partners/">Partners</a></li>
+    <li class="nav-threads"><a href="https://threads.net/elclaustrocl/">Threads</a></li>
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://open.spotify.com/show/2lvzojAtayHDqz5WDoXoLr">Spotify</a></li>
+    <li class="nav-reddit"><a href="https://reddit.com/r/elclaustro">Reddit</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+</ul>
+
+                    <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>        </nav>
+
+        <div class="gh-navigation-actions">
+        </div>
+
+    </div>
+</header>
+
+    
+<main class="gh-main gh-outer">
+
+        <section class="gh-archive has-sidebar gh-inner">
+            <div class="gh-archive-inner">
+                <header class="gh-archive-wrapper">
+                    <h1 class="gh-article-title is-title">El Claustro</h1>
+                </header>
+                            </div>
+        </section>
+
+    
+<section class="gh-container is-grid has-sidebar gh-outer">
+    <div class="gh-container-inner gh-inner">
+        
+
+        <main class="gh-main">
+            <div class="gh-feed">
+
+
+
+                        <article class="gh-card post tag-chile tag-el-claustro tag-media-partners tag-eventos">
+    <a class="gh-card-link" href="/darkcorp-cl-presenta-fashion-goth-show-muerte-roja-inspirado-en-masque-of-red-death-e-a-poe/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/05/438837987_18006485813415124_8646384947834363551_n.jpg"
+                    alt="DarkCorp.cl Presenta: &quot;Fashion Goth Show: Muerte Roja&quot; (Inspirado en Masque of Red Death - E.A. Poe)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Chile</p>
+            <h3 class="gh-card-title is-title">DarkCorp.cl Presenta: &quot;Fashion Goth Show: Muerte Roja&quot; (Inspirado en Masque of Red Death - E.A. Poe)</h3>
+                    <p class="gh-card-excerpt is-body">🖤✨ ¡Atención amantes de la moda y del misterio! 🌙🦇
+
+Las entradas para la primera edición del Fashion Goth Show, inspirado en el cuento &quot;Muerte Roja&quot; de Edgar Allan Poe, ¡ya están a la venta! 🎟️
+
+Estamos emocionados de presentarles este evento único que fusiona moda, arte y magia en una</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-podcast tag-podcasts tag-discos-videos-y-playlists tag-chile tag-archivo-historico tag-el-claustro featured">
+    <a class="gh-card-link" href="/podcast-elclaustro-cl-31-marzo-2011/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 160w,
+                            /content/images/size/w320/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 320w,
+                            /content/images/size/w600/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 600w,
+                            /content/images/size/w960/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 960w,
+                            /content/images/size/w1200/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 1200w,
+                            /content/images/size/w2000/format/webp/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2024/04/DALL-E-2024-04-05-04.58.22---goths-reading-at-medieval-ruins.png"
+                    alt="Podcast ElClaustro.cl: 31 Marzo 2011"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Podcast</p>
+            <h3 class="gh-card-title is-title">Podcast ElClaustro.cl: 31 Marzo 2011</h3>
+                    <p class="gh-card-excerpt is-body">Escucharemos a: Lene Lovich; Lacrimosa; Epica; The Gathering; Rammstein; Depeche Mode; Nightwish; Theatre of Tragedy; Suspiria; Therion.
+
+Originalmente publicado en: 2011-03-31 19:53:03
+
+Escuchar en Spotify:
+
+ElClaustro.cl: 31 Marzo 2011Listen to this episode from ElClaustro.cl en Radio USACH (2009-2011) on Spotify. Escucharemos a: Lene Lovich; Lacrimosa; Epica;</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-el-claustro tag-media-partners tag-noticias featured">
+    <a class="gh-card-link" href="/dark-corp-y-el-claustro-preparan-alianza-de-medios-comunidades-digitales-e-iniciativas-culturales-underground/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/07/darkcorp-elclaustro.jpg 160w,
+                            /content/images/size/w320/format/webp/2023/07/darkcorp-elclaustro.jpg 320w,
+                            /content/images/size/w600/format/webp/2023/07/darkcorp-elclaustro.jpg 600w,
+                            /content/images/size/w960/format/webp/2023/07/darkcorp-elclaustro.jpg 960w,
+                            /content/images/size/w1200/format/webp/2023/07/darkcorp-elclaustro.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2023/07/darkcorp-elclaustro.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/07/darkcorp-elclaustro.jpg"
+                    alt="Dark Corp y El Claustro preparan alianza de medios, comunidades digitales e iniciativas culturales underground"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">El Claustro</p>
+            <h3 class="gh-card-title is-title">Dark Corp y El Claustro preparan alianza de medios, comunidades digitales e iniciativas culturales underground</h3>
+                    <p class="gh-card-excerpt is-body">Dos de las iniciativas más importantes en la escena dark de Chile, Dark Corp y El Claustro, han anunciado una alianza para promover la cultura underground en el país y en latinoamérica. El acuerdo incluye la colaboración en eventos, publicaciones y otras iniciativas, con el objetivo de dar visibilidad y</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-columnas tag-el-claustro featured">
+    <a class="gh-card-link" href="/en-homenaje-al-gotico-la-contracultura-que-sigue-no-viva-y-no-muerta/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/07/specimen.jpeg 160w,
+                            /content/images/size/w320/format/webp/2023/07/specimen.jpeg 320w,
+                            /content/images/size/w600/format/webp/2023/07/specimen.jpeg 600w,
+                            /content/images/size/w960/format/webp/2023/07/specimen.jpeg 960w,
+                            /content/images/size/w1200/format/webp/2023/07/specimen.jpeg 1200w,
+                            /content/images/size/w2000/format/webp/2023/07/specimen.jpeg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/07/specimen.jpeg"
+                    alt="Fotografía: SPECIMEN and ALIEN SEX FIEND, 1983 (c) Mick Mercer"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Columnas</p>
+            <h3 class="gh-card-title is-title">En homenaje al Gótico: La contracultura que sigue no-viva y no-muerta</h3>
+                    <p class="gh-card-excerpt is-body">Otras subculturas han surgido y desaparecido. De las modas o &quot;tribus urbanas&quot;, ni hablar. Pero los góticos, ridiculizados, ignorados y descartados, hemos perdurado.
+
+
+Artículo basado en la columna de Michael Hann en The Spectator.
+
+
+Fotografía: SPECIMEN and ALIEN SEX FIEND, 1983 (c) Mick Mercer
+
+
+Bauhaus - Bela Lugosi&</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-podcasts tag-podcast tag-discos-videos-y-playlists tag-chile tag-archivo-historico tag-el-claustro featured">
+    <a class="gh-card-link" href="/elclaustro-cl-programa-17-de-febrero-2010/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;160 160w,
+                            https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;320 320w,
+                            https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w,
+                            https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                            https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                            https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w"
+                    sizes="320px"
+                    src="https://images.unsplash.com/photo-1574357675216-a7ce77356a2a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDE5fHxnb3RoaWN8ZW58MHx8fHwxNjg4MjI2ODQwfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600"
+                    alt="ElClaustro.cl: Programa 17 de Febrero 2010"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Podcasts</p>
+            <h3 class="gh-card-title is-title">ElClaustro.cl: Programa 17 de Febrero 2010</h3>
+                    <p class="gh-card-excerpt is-body">Emitido por Radio USACH 94.5 FM entre los años 2009-2011, teniendo como concepto central rescatar los orígenes musicales y conceptuales de “la vieja escuela” de la música oscura (post punk, darkwave, gothic rock, electro, ebm, neofolk, etc) junto a entrevistas, opinión y conversación de actualidad y temas asociados a</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-archivo-historico tag-el-claustro tag-columnas featured">
+    <a class="gh-card-link" href="/damian-uriel-charro-o-de-como-aprendimos-que-era-realmente-el-claustro-parte-1-monterrey-y-santiago/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/07/64485763_10156777050172950_1988253490756976640_n.jpg"
+                    alt="Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Archivo Histórico</p>
+            <h3 class="gh-card-title is-title">Damián, Uriel, Charro, o de cómo aprendimos qué era realmente El Claustro (Parte 1: Monterrey y Santiago)</h3>
+                    <p class="gh-card-excerpt is-body">Año 2007, recibimos un correo buscando contactarse con nosotros. En ese momento, era algo común, ya que El Claustro tenía mucha actividad, visitas de toda hispanoamérica -teníamos más tiempo libre y estábamos inmersos en el darkeo-.
+El Release the Bats ya iba por su segunda edición (todo un clásico, era</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-columnas tag-el-claustro tag-discos-videos-y-playlists tag-archivo-historico featured">
+    <a class="gh-card-link" href="/archivo-historico-el-claustro-undeads-en-piso-hell-2007/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/06/undeads2.jpg 160w,
+                            /content/images/size/w320/format/webp/2023/06/undeads2.jpg 320w,
+                            /content/images/size/w600/format/webp/2023/06/undeads2.jpg 600w,
+                            /content/images/size/w960/format/webp/2023/06/undeads2.jpg 960w,
+                            /content/images/size/w1200/format/webp/2023/06/undeads2.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2023/06/undeads2.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/06/undeads2.jpg"
+                    alt="Undeads en Sala SCD Santiago. CHile 2007"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Columnas</p>
+            <h3 class="gh-card-title is-title">Archivo Histórico El Claustro: Undeads en &quot;Piso Hell&quot; (2007)</h3>
+                    <p class="gh-card-excerpt is-body">Año 2007, no teníamos nada más que el darkeo interno que nos ha mantenido más cerca de estar vivos que no-muertos (¿o algo así? Bueh... se entiende, per se).
+Registro de Víctor (Amadeus), estando más cerca de McGyver que de producer, logró sacarle audio a una caja de zapatos con</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-discos-videos-y-playlists tag-el-claustro tag-chile featured no-image">
+    <a class="gh-card-link" href="/elclaustro-cl-presenta-hecho-en-chile/">
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Discos y Multimedia</p>
+            <h3 class="gh-card-title is-title">ElClaustro.cl presenta &quot;Hecho en Chile&quot;</h3>
+                <p class="gh-card-excerpt is-body">A curated selection of Chilean Gothic, Postpunk, Darkwave, Industrial . Selección de música dark, gótica y/o oscura hecha en Chile o por chilenos.</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-discos-videos-y-playlists tag-chile tag-el-claustro featured">
+    <a class="gh-card-link" href="/convulsiones-convulsiones/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 160w,
+                            /content/images/size/w320/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 320w,
+                            /content/images/size/w600/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 600w,
+                            /content/images/size/w960/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 960w,
+                            /content/images/size/w1200/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 1200w,
+                            /content/images/size/w2000/format/webp/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/08/ab67616d0000b27337375483c4c098a1f5c3c472.jpeg"
+                    alt="Convulsiones – Convulsiones"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Discos y Multimedia</p>
+            <h3 class="gh-card-title is-title">Convulsiones – Convulsiones</h3>
+                    <p class="gh-card-excerpt is-body">Convulsiones llegó al mundo en Agosto del 2004, cuando cuatro amigos se reunieron para expresar y desahogar sus sentimientos. Teniendo como génesis e inspiración musical un amplio abanico de influencias, desde Gathering, Garbage, The Cure, Bauhaus, Siouxsie y muchos otros exponentes de música alternativa. Como la vida en sí, que</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-eventos tag-el-claustro featured">
+    <a class="gh-card-link" href="/release-the-bats-undead-undead-undead-viernes-16-de-diciembre-santa-filomena-126/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 160w,
+                            /content/images/size/w320/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 320w,
+                            /content/images/size/w600/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 600w,
+                            /content/images/size/w960/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 960w,
+                            /content/images/size/w1200/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 1200w,
+                            /content/images/size/w2000/format/webp/2023/08/352518655_941426320426799_4553126018556085439_n.jpg 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/08/352518655_941426320426799_4553126018556085439_n.jpg"
+                    alt="Release the Bats: Undead, Undead Undead!!! Viernes 16 de Diciembre, Santa Filomena 126"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Eventos</p>
+            <h3 class="gh-card-title is-title">Release the Bats: Undead, Undead Undead!!! Viernes 16 de Diciembre, Santa Filomena 126</h3>
+                    <p class="gh-card-excerpt is-body">Release the Bats: Undead, Undead Undead!!! Viernes 16 de Diciembre, Santa Filomena 126
+
+Vuelve la legendaria fiesta que desde el año 2006 ha profanado la tumba de los sonidos old school, deathrock, post punk y gothic rock. En esta ocasión El Claustro y Santiago Decay hemos compartido nicho fúnebre para</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-columnas tag-el-claustro tag-archivo-historico featured">
+    <a class="gh-card-link" href="/genesis-de-un-sueno-oscuro-la-historia-de-la-musica-gotica/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 160w,
+                            /content/images/size/w320/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 320w,
+                            /content/images/size/w600/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 600w,
+                            /content/images/size/w960/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 960w,
+                            /content/images/size/w1200/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 1200w,
+                            /content/images/size/w2000/format/webp/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/08/DALL-E-2023-06-21-20.09.53---a-gothic-medieval-ruins-rebuilt-by-futuristic-goths-of-our-time.png"
+                    alt="Génesis de un Sueño Oscuro -la historia de la música gotica-"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Columnas</p>
+            <h3 class="gh-card-title is-title">Génesis de un Sueño Oscuro -la historia de la música gotica-</h3>
+                    <p class="gh-card-excerpt is-body">Publicado originalmente el 15 de diciembre del 2006, como una adaptación libre del artículo de Wikipedia en inglés sobre la música gótica o el rock gotico.
+
+Tenemos un enorme problema: La mayoría no conoce muy bien la historia de su cultura como a su vez el resto del mundo tampoco</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>                        <article class="gh-card post tag-entrevistas tag-chile tag-el-claustro tag-archivo-historico featured">
+    <a class="gh-card-link" href="/entrevista-a-das-ich-en-cerro-santa-lucia-video/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="/content/images/size/w160/format/webp/2023/05/unnamed-file.jpeg.webp 160w,
+                            /content/images/size/w320/format/webp/2023/05/unnamed-file.jpeg.webp 320w,
+                            /content/images/size/w600/format/webp/2023/05/unnamed-file.jpeg.webp 600w,
+                            /content/images/size/w960/format/webp/2023/05/unnamed-file.jpeg.webp 960w,
+                            /content/images/size/w1200/format/webp/2023/05/unnamed-file.jpeg.webp 1200w,
+                            /content/images/size/w2000/format/webp/2023/05/unnamed-file.jpeg.webp 2000w"
+                    sizes="320px"
+                    src="/content/images/size/w600/2023/05/unnamed-file.jpeg.webp"
+                    alt="Entrevista a Das Ich en Cerro Santa Lucía (Video)"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+                <p class="gh-card-tag">Entrevistas</p>
+            <h3 class="gh-card-title is-title">Entrevista a Das Ich en Cerro Santa Lucía (Video)</h3>
+                    <p class="gh-card-excerpt is-body">Escrito por Amadeus en Septiembre – 6 – 2009
+
+Por ahí por el 2006, me encontraba yo terminando el semestre con mis compañeros (incluido mi compadre Phillipe, que murió la semana pasada, godspeed, fella!) cuando me llama la mina de turno para invitarme jotísticamente al concierto de Das Ich, al que no</p>
+            <footer class="gh-card-meta">
+<!--
+             --><!--
+         --></footer>
+        </div>
+    </a>
+</article>
+            </div>
+        </main>
+
+            <aside class="gh-sidebar">
+                <div class="gh-sidebar-inner">
+                    <section class="gh-about">
+                            <img class="gh-about-icon" src="https://elclaustro.cl/content/images/2023/08/icon.png" alt="El Claustro - Contracultura Gothic, Dark, Underground" loading="lazy">
+                        <h3 class="gh-about-title is-title">El Claustro - Contracultura Gothic, Dark, Underground</h3>
+                            <p class="gh-about-description is-body">Música, Comunidad, Información, Opinión y más desde Latinoamérica en Castellano</p>
+                    </section>
+                        <section class="gh-recommendations">
+                            <h4 class="gh-sidebar-title">Recommendations</h4>
+                                <ul class="recommendations">
+        <li class="recommendation">
+            <a href="https://sredevops.org/" data-recommendation="66785ccdf036f70001676ce7" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://sredevops.org/content/images/2024/07/Icon-App-76x76@2x.png" alt="SREDevOps.org - SRE, DevOps, Cloud Native, Linux, AI" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SREDevOps.org - SRE, DevOps, Cloud Native, Linux, AI</h5>
+                <span class="recommendation-url">sredevops.org</span>
+                <p class="recommendation-description">SRE, DevOps, Cloud Native, Linux, AI - Español, Portugues (Brasil) and English.</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://sweetcaroline.cl/" data-recommendation="65fb9418e8738500016d6267" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://sweetcaroline.cl/wp-content/uploads/2021/08/cropped-icono-web-1-270x270.png" alt="SweetCaroline – Pastelería boutique, producción de calidad y tendencias" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SweetCaroline – Pastelería boutique, producción de calidad y tendencias</h5>
+                <span class="recommendation-url">sweetcaroline.cl</span>
+                <p class="recommendation-description">Pastelería boutique, producción de calidad y tendencias</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://atomiummagazine.cl/" data-recommendation="6546839a54f24a000152e932" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://atomiummagazine.cl/images/favicon-amc.png" alt="Atomium Magazine | inicio" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">Atomium Magazine | inicio</h5>
+                <span class="recommendation-url">atomiummagazine.cl</span>
+                <p class="recommendation-description">Industrial , EBM , Synth Pop</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://darkcorp.cl/" data-recommendation="65451f4e54f24a000152e931" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://i.imgur.com/d9NGz0T.jpg" alt="Dark Corp ®" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">Dark Corp ®</h5>
+                <span class="recommendation-url">darkcorp.cl</span>
+                <p class="recommendation-description">💀Corporativo Creativo &amp; Productora de Eventos💀 🕸️ Potenciamos y promovemos la cultura y el arte oscuro 🕸️</p>
+            </a>
+        </li>
+        <li class="recommendation">
+            <a href="https://side-line.com/" data-recommendation="65427d20c0325a0001f9d989" target="_blank" rel="noopener">
+                <div class="recommendation-favicon">
+                        <img src="https://www.side-line.com/wp-content/uploads/2021/10/cropped-side-line-logo-png-270x270.png" alt="SIDE-LINE MAGAZINE - Industrial electro post-punk music magazine" loading="lazy" onerror="this.style.display='none';">
+                </div>
+                <h5 class="recommendation-title">SIDE-LINE MAGAZINE - Industrial electro post-punk music magazine</h5>
+                <span class="recommendation-url">side-line.com</span>
+                <p class="recommendation-description">Side-Line Magazine is your go-to source for the latest in industrial, electro and post-punk music. Stay updated with news, reviews, and exclusive interviews.</p>
+            </a>
+        </li>
+    </ul>
+
+                            <button data-portal="recommendations">See all <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></button>
+                        </section>
+                </div>
+            </aside>
+
+
+    </div>
+</section>
+</main>
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://elclaustro.cl/content/images/2023/05/logo-4.svg" alt="El Claustro - Contracultura Gothic, Dark, Underground">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-instagram"><a href="https://www.instagram.com/elclaustrocl/">Instagram</a></li>
+    <li class="nav-spotify"><a href="https://podcasters.spotify.com/pod/show/elclaustro">Spotify</a></li>
+    <li class="nav-youtube"><a href="https://youtube.com/@elclaustrocl">Youtube</a></li>
+    <li class="nav-facebook"><a href="https://facebook.com/elclaustrocl">Facebook</a></li>
+    <li class="nav-reddit"><a href="https://www.reddit.com/r/elclaustro/">Reddit</a></li>
+    <li class="nav-github"><a href="https://github.com/sredevopsorg">Github</a></li>
+    <li class="nav-sredevops-org"><a href="https://sredevops.org/">SREDevOps.org</a></li>
+    <li class="nav-sweetcaroline-cl"><a href="https://SweetCaroline.cl">SweetCaroline.cl</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+
+    </div>
+</footer>    
+</div>
+
+
+<script src="/assets/built/source.js?v=760f2360d7"></script>
+
+<style>
+    .nav .nav-discord a,
+    .nav .nav-facebook a,
+    .nav .nav-github a,
+    .nav .nav-instagram a,
+    .nav .nav-threads a,
+    .nav .nav-twitter a,
+    .nav .nav-x a,
+    .nav .nav-spotify a,
+    .nav .nav-reddit a,
+    .nav .nav-youtube a {
+        font-size: 0 !important;
+    }
+
+    .nav .nav-discord a::before,
+    .nav .nav-facebook a::before,
+    .nav .nav-github a::before,
+    .nav .nav-instagram a::before,
+    .nav .nav-threads a::before,
+    .nav .nav-twitter a::before,
+    .nav .nav-x a::before,
+    .nav .nav-spotify a::before,
+    .nav .nav-reddit a::before,
+    .nav .nav-youtube a::before {
+        font-family: "Font Awesome 6 Brands";
+        display: inline-block;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .nav .nav-discord a::before {content: "\f392"}
+    .nav .nav-facebook a::before {content: "\f09a"}
+    .nav .nav-github a::before {content: "\f09b"}
+    .nav .nav-instagram a::before {content: "\f16d"}
+    .nav .nav-threads a::before {content: "\e618"}
+    .nav .nav-twitter a::before {content: "\f099"}
+    .nav .nav-x a::before {content: "\e61b"}
+    .nav .nav-spotify a::before {content: "\f1bc"}
+    .nav .nav-reddit a::before {content: "\f1a1"}
+    .nav .nav-youtube a::before {content: "\f167"}
+</style>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a4f16bc4f9e88ac',t:'MTcyMTI3MDIzNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
